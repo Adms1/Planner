@@ -1,0 +1,44 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.7.1)
+  - AMColorPicker (3.0.1)
+  - Cosmos (23.0.0)
+  - CULColorPicker (0.1.0)
+  - CVCalendar (1.7.0)
+  - DropDown (2.3.13)
+  - FSCalendar (2.8.2)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - AMColorPicker
+  - Cosmos
+  - CULColorPicker
+  - CVCalendar
+  - DropDown
+  - FSCalendar
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - AMColorPicker
+    - Cosmos
+    - CULColorPicker
+    - CVCalendar
+    - DropDown
+    - FSCalendar
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
+  AMColorPicker: 8532f0cb7e0c6e498858368d61089008ee102bd4
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  CULColorPicker: 43417b036b75277029de0c489d94d6d3a7378ddc
+  CVCalendar: 1174c1b43c1a258970e14c1e8b19ef4106c5900b
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 8671337043ce58ddf3d6332c9069a0e6751a8444
+
+COCOAPODS: 1.10.1

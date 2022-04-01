@@ -1,0 +1,2389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E6FF9EF68F8F4DF9893A66DFD0FF00 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF00E310231A65E0A18DBFE5A21BAC1 /* ActionSheetCustomPicker.m */; };
+		01ED7401731A6D64E2EBDB0C9BA10D78 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2244AC71994ED5FBFD7827478F93E7 /* ActionSheetMultipleStringPicker.m */; };
+		023F7C68E8063B24335CF96592EB1881 /* ColorSpaceConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3079CB6AFC3AC2491AAF5AFE8A090 /* ColorSpaceConverter.swift */; };
+		049FC8D781A7ECAED15F25718502D54E /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494137BE4336CE8BF89921065A4706F5 /* CosmosAccessibility.swift */; };
+		05DFD786F217BD0DFBFB5F57D80236A5 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDADAF5CF6FBEAB7DE2E69D1B5CFC5 /* CosmosTouch.swift */; };
+		0673F3481EF6165F70E8F0990278BDC7 /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 57789A277F0BFDB5AB75A14F8B87EBC3 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		072519D50595FDD74F513980C8E978E0 /* CVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD06BC86F265AEF1328CDF97059D83 /* CVDate.swift */; };
+		083B18F49C35728E9A7B828E73DF2EB8 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DEB1B718DE08CC0917D886880EC013 /* FSCalendarDelegationFactory.m */; };
+		0865535E238AB0709024C1CD34746F14 /* CVCalendarContentPresentationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3795FFAF49B8C1B41F5A8C30DAE484B7 /* CVCalendarContentPresentationCoordinator.swift */; };
+		0C880D762097C192F231E5560AF4EE29 /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB7089C552281B54B97712A2C73A746 /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4A225B2E9192B1B7C8DFB85B4303AF /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDEE19AF0409915A136E93C63FE646C /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E8D8F7FA637B6B29B4B727A99B2D688 /* CVCalendarDayViewControlCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D375A7DA4145312D13C761F624AD9337 /* CVCalendarDayViewControlCoordinator.swift */; };
+		0EDCAFA93DA0E7D98A2CF2386FEAA550 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = EE235D4EF95EAB4B4C266B79AA44199A /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F2DEB38F550FF5F643CD48BE324B009 /* FSCalendarSeparatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 931ADE252CF10AD8082874BA71677DDD /* FSCalendarSeparatorDecorationView.m */; };
+		10A44B18B300E2B0BF5BF88F6F2E585F /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B01B8D1BB09E4F1E2E0F45A890AFF7 /* CosmosRating.swift */; };
+		128506D8BD225B90D13B981EA6DF3ABA /* AMColorPickerWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E8C92F5C956C954F66E6570DBDC6806 /* AMColorPickerWheelView.xib */; };
+		13EC04A37A3195D0A8146D397CF97BA5 /* AMColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C5813978D503497FEE5828B3FE483 /* AMColorPickerViewController.xib */; };
+		14F561BF016628D16C6D89E8CE83E4C8 /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD5E54E04C50F19B5BB9F9D275A9097 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		178432149A7F61ABFB3E65ED0AB760FA /* CVPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E75238B5AAC1055552B39EA9867C9D /* CVPresent.swift */; };
+		18D2DFB0D75B0E57812C7D23552AAC2E /* CVCalendarWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B0E6E37D2768ED208ECBA297BE543 /* CVCalendarWeekday.swift */; };
+		18DD6E6EBA3006008B6C56D9D2DA9535 /* CVCalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1D3ACE8622F31A7A4C349AF612F6E /* CVCalendarWeekView.swift */; };
+		1BDE0FED974714A835CB89AD1062FF0D /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D38FA27671A527D52C13B5D8A46B4B6 /* FSCalendarExtensions.m */; };
+		1E0C257A13260508F9FC03D637764614 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E56B1450C83EC9B83B6C4A707D8F8113 /* FSCalendarStickyHeader.m */; };
+		1ED6A018A50C929244C03FC6A46670F8 /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDBB979567A9BBE4DFFE0D0EA06B168 /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2024EE5E265681137A9FEBC630E6E0F1 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21234715D72D9E0AB1B2096A63D381DF /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2126BAE2A3A69461E8B00562CFF6D67C /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 762EAA6DD81CD4D4B6F90815177B7D0B /* FSCalendar-dummy.m */; };
+		294871A7129CE743BB3A1A37A5909905 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A4E76D88D5C52DCF46A43E5461DABA /* ActionSheetDatePicker.m */; };
+		2A4972C7ADE3DFAAE219A09318FC3F14 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FAC9058C621338E43179322FF15301 /* ActionSheetStringPicker.m */; };
+		2E5EC07CFD18A132E57569D00117C703 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAFA704F12CB8CE19A0172095CB4A59 /* FSCalendarConstants.m */; };
+		2FADA7115AEFDCC59593DD4201572539 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C4E46A16186912B9A1BD693B959B0 /* CosmosLayers.swift */; };
+		3140D0FED860B8395E30F04E6E787E61 /* AMColorPickerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A77B70B24E06E85EE0C43664045073 /* AMColorPickerTableView.swift */; };
+		356D1AE507089A89F01D3834FA9F46CB /* AMColorPickerWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CE105D3444E5875F61497B7662EC0 /* AMColorPickerWheelView.swift */; };
+		361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E14EC843E2D2691ED2E38756292C9A /* DropDownCell.swift */; };
+		399DAE9A92DED67B334DB2F4B707EE79 /* CVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E83FB40A607B92C102FCF41A1D57A4 /* CVCalendarView.swift */; };
+		3E06FC16AD490E415C5FFF1F3D1C59DB /* AMColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A4957F2D390B35DA7CC400989AAACA /* AMColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F0F6CEFD0801BEA64D1A265AE92FC05 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A2C08CF6A686EDFB1BFC911B7FE7C /* FSCalendarWeekdayView.m */; };
+		40A1E3418709AF59AD2684D8F03C15DF /* CVCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8C332A0375205E9C6550FEE99B456 /* CVCalendarManager.swift */; };
+		41D299C22C18A78D39EB788D3311974A /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 917435D7788A6A88FE9251459F606F0A /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41E5B21F4758B2411A95A7C72523536D /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513F6B70904C5246947381961C09D501 /* CosmosView.swift */; };
+		4221AB8F56B1444AE176F2B13F81C557 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802DAA68C61C5DD736E2025135E56FAC /* StarLayer.swift */; };
+		424CA999527031B0FF836C320AA1FDAA /* CVStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B311CDAE20BE2FF7DC76F193F8CA6E6 /* CVStatus.swift */; };
+		4404A9C8152865C62A5B59B88640811C /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0B1468E064C265E64F11742244B86 /* CosmosSize.swift */; };
+		440E0DE7867D8B0CD53E5DAD669168AE /* CVCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A045BBCBB4A5CD0D0E9B5D4709646A66 /* CVCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4753716AE7A1AB22FB6BA61AA74D942F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89767841C80F16F4E46B59C64D00FDCE /* Toast.swift */; };
+		487467099AB8229395A1A005DC6AD4F4 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ADFB3E76D29DDE0D3DDD3E96E0A9B8 /* FSCalendarCollectionViewLayout.m */; };
+		48DC50A48CEC3AEC56CB6C3144EF4D47 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA3190E78348250DB66046884B36C61 /* FSCalendarDelegationProxy.m */; };
+		4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BAFE4956E25C439234AC6A75F097F4 /* DPDUIView+Extension.swift */; };
+		4B06E7A9994CCDB40333001E83F1FD79 /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C17BC38C63CE14D0C9F27FC89D6A34 /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B11C48CCA7FD866A774B0E49FB595DA /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0595B0A442D3EB49DEDCE5174D4C716D /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B12C426BF53064A3880EDBACC0A7B8A /* AMCP_cursor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AE188BE85CC014FC72ECF3F6A8167B /* AMCP_cursor@2x.png */; };
+		4B14E870411CA2C49350C10BE3750FE3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B80D64CD115E2E429EEB14F8864D4FD /* UIColorExtension.swift */; };
+		4BB9C836A68DC72EAADB50AC55C99D42 /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D8D7C94ACBE2D3A0330A43CAACE6D8 /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C79C31591A80E7209E52F0928F7546C /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C8E81E71E97E99B84453251CB990BF /* FSCalendarCell.m */; };
+		51204A385DF5C502BAA27ECE86719C7D /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E51E70929776E16E4021FB7517ADCF /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F48BFF707DF7154B16E2907ACA3870 /* AMCP_color_wheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19FDEEA1718E90746202EFCC04EB947A /* AMCP_color_wheel@2x.png */; };
+		522FB484F79064A183754528ED787059 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8630D3D82878E250784992BE31D27 /* DistancePickerView.m */; };
+		52565719316CADB05B7C8FA79964519A /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFD027EDC3CB7B309B0F85F6D381EE6 /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58AD6758D9237AFCBAE75CF5AA275C47 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 05318306ECFBBB22553E911DC6F6C149 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58CF9A606A3CE3F0CC0CA8A42C4C77E6 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E01753C6989E56DE989CFC509288983B /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59789CE08DF6F1682B65A0DB845F18BE /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E820E976A3AFBF7A79B20520DA29E134 /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C7B76FBAD8574062F60041B012FE052 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB963CF06210E22B75EDCC9A4A2ADBC /* CosmosTouchTarget.swift */; };
+		5DD3FA0A001E60703F933BD41B429258 /* CULColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D76BDE7A3B328CE0E6C90D157C4939A3 /* CULColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DF0AC0D22BCD5B71E2A4EC277DD0395 /* ColorPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA8BF971BF3B8C049C39BE7BBFD5EB /* ColorPickerViewDelegate.swift */; };
+		5E2E7D406AE90AD8C485F9546A12B9E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E376C302AB9D75D7635C100F1D97E4D /* DPDConstants.swift */; };
+		6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2DF9F36202FFF157DABC0366E2CA53 /* DropDown+Appearance.swift */; };
+		61857850A19756A357AD6696D42E69A4 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595EDA888DC7CCD284B14EEC75A46D68 /* RightToLeft.swift */; };
+		62AD1DDBEBBB4B198593A4D2FFEE8C69 /* Pods-Planner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E98368DF726D4439378ECB4D26AB37 /* Pods-Planner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66EB131EC062D11D014B86C4A75FFC39 /* AMColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A49EAB4C8DC52A717CAA7F7FECB225CC /* AMColorPicker-dummy.m */; };
+		68FBDD3024807051F67E95C8816E4528 /* CVScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C5813C60D8BAA49F54EAA3CBE82FAE /* CVScrollDirection.swift */; };
+		698D8341E7C25BC68AC1BE08B03DFF75 /* CVCalendarViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB4C6A2BD79C57620B3CA95730D319 /* CVCalendarViewAppearanceDelegate.swift */; };
+		6B326644BB08AEDF697A82A0F1A66D68 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19510B8749D73AD391C5F4695B71DB /* Toast-Swift-dummy.m */; };
+		6CF04FDA8240D858280268329C2674E9 /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA3303DCB98152F90BDFE0A333B5D45 /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DC43B6FC3B5FDF0D72D6162C3E75805 /* AMColorPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64B95748C330B79AEAA2D4035FD2116 /* AMColorPickerTableViewCell.xib */; };
+		70D01975DE6F28A5EC3759FDC1F29AE3 /* CVCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3348FB30F9F7FD37562DAA1CB59D93 /* CVCalendarDayView.swift */; };
+		7360CEDAB021006D16225352EFE233C3 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F97C642F33AE54E9BD0ED828F7B905 /* AbstractActionSheetPicker.m */; };
+		73954AE62EC5D77B4DBD21146FD6AB97 /* CVRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8055926C5C1AA720E5DD7A274C2AB0D8 /* CVRange.swift */; };
+		753C8C42CEFBED94E1F1E752955F0254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		75EBE39154FA38B6FF90FA23A132EEC7 /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911FB46F1C2EEA8C60D5B461CAC5097 /* CVShape.swift */; };
+		7BC369523CF18358BD597372CDBD8760 /* AMColorPickerRGBSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF16CB03CC3081800A306C205A4BB4 /* AMColorPickerRGBSliderView.swift */; };
+		7DE1AEEB56E04E47A9A9542FF04ABFDD /* CVCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175E80EAD38AC4F7450A82FAB40BBDE /* CVCalendarMenuView.swift */; };
+		7EAEA451E04E5E96AFE6D1B63313F624 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D77EB0E37013A215342A50350D51FE80 /* FSCalendar.m */; };
+		801C634F0F633E92BDDD77AEDC52E5AA /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A45236B3E558F964DB9F966CB6693C75 /* ActionSheetDistancePicker.m */; };
+		842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9C5364BB257FD7E7B36EE4D355D6C /* DropDown.swift */; };
+		85D9C313DB134095A59156BB7B10A38F /* AMColorPickerRGBSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C589B10F09D5379CD62596D1D79D606A /* AMColorPickerRGBSliderView.xib */; };
+		8633C154CEC62F5ECAE687CC7ED8067E /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A824410885B210264739680B3830392 /* FSCalendarAppearance.m */; };
+		8AB76EF4157ADE0806FA3B4A1549EAD2 /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB378919D1D4236DBCAFF9408E543B3 /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0467D6F35F276E1A62D7C28BD95E46 /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC133C8C77D91B4A3381CA2BE423EA5D /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B6F89879F8B4241403D3ED15BE2C46 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5DB87F23D01BD3106F9696D0B12F2A /* SWActionSheet.m */; };
+		90C07879888E0609990E6701D833FDDA /* CVCalendarMenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB76D76F12E4C90925D0D32500E55B2 /* CVCalendarMenuViewDelegate.swift */; };
+		919B72E0CE7743838A947288D10AAEA3 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1310F1C45E39FA19350FE13E7922F057 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91A96B98AD78AAD881AB6389B1368405 /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 346DEA08C3DA5F574045058FD813CDD7 /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930E9816ABEB66EA175EE1946469E5BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		93D3B2EC7BAD20C4F2269A79F8FF972B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA012C2EA7AD803B89F88CE444DD9C2B /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A25BAE873E4B71E5BF021A3D060D148 /* DropDown-dummy.m */; };
+		97C8E7EF0EC310807B6A02E375468B9D /* AMColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA86CC341DE3F25D906587ED31614B06 /* AMColorPickerViewController.swift */; };
+		99D8FA1A46EBECCF5CA9A13DD50A8704 /* CVSelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C684D435B4ED7C72CFDFC4C1584B7E15 /* CVSelectionType.swift */; };
+		9D60235277EEB2A0A45939E8F09A7D71 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 030FB4CC32704A7B1A301677391D73FE /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F11A99DF69D4F15206CEAE387F946B0 /* CULColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43B3C0E3E93CDCE9AAF27FC66EEB09 /* CULColorPicker-dummy.m */; };
+		9F2E507B0B3B9B2F6202114387F60ABF /* CVWeekdaySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652503600099F4536674F6090FEB594 /* CVWeekdaySymbolType.swift */; };
+		A10C64E4402E96AA72E98D92FC06B334 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = A07E8CACE12050DAA82F767D4D443EDB /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1626C63DC98ECE49ADCE50F5C7F74BF /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D76E46D2415739309125B5D263950ED2 /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A233FC9783903408A8F2A620895DB36D /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D5795E9613A5C828C8474A8D88D545 /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A57ADBCB229B6F41CA4E9EE13CC43EFF /* AMCP_slider_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D3F5284B3E900BB971138DF201D441A /* AMCP_slider_thumb@2x.png */; };
+		A908782D9DE35906887CA42AF1D77730 /* CVCalendarMonthContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2D94EA4088316EADB1A357361972A /* CVCalendarMonthContentViewController.swift */; };
+		AAD681D4C2C3F9C553E67C299E8A972A /* AMColorPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317436311B5408A2C2D80096832B0323 /* AMColorPickerTableViewCell.swift */; };
+		AC66029C0E8188306DB706D505364DC8 /* CVCalendarWeekContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D67DF8569A75E027EDB6CDEC355EFF8 /* CVCalendarWeekContentViewController.swift */; };
+		AC7DAE5B261F8CDE268794A1B7B06F56 /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A467D861FCBC41A238B4945AD8842CF8 /* CosmosText.swift */; };
+		AF74D53E0BF81370C729C12F7A626E54 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35774EE4B99BC25F5ECEDF462AA918BB /* ColorPickerView.swift */; };
+		B2D447D4220C41789F1F2DBC4CBE875C /* CVCalendarViewAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BAC1D3365EBE222918F400094DE8A /* CVCalendarViewAnimatorDelegate.swift */; };
+		B594E04185C4C7522C612C631B8AD97A /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 164397B84DF1D7102A32C678EFBDE1BA /* Cosmos-dummy.m */; };
+		B680FA67194DFA61C9AE3F66C96209FA /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE99365D1ADA0FA2D9FFA2650DC723B /* RGB.swift */; };
+		BA4618552515686F83F7873D094EB189 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FF63E18F80D492CBAF0BAB0AB88D0 /* DPDKeyboardListener.swift */; };
+		BADEDF3F5C6B8ECA687B3061C65C7E5D /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C828670EEEB61565A907C9F0AAAF1CB /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD11644704411365AF68FCAB0111D9D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		BD7FB260F9823A15C481A5B35C1636CC /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F89AEE3C69F97E35F714BEA26FCCD956 /* ActionSheetLocalePicker.m */; };
+		BF1612518CC04ABAA2449DFEEBDBABFF /* CVCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB098BC21B759AB5555FEB72A3FC92 /* CVCalendarViewDelegate.swift */; };
+		C0D5F472F17B5A0F9824C362F35A7132 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72990BE81A962CC270E17A943489D0B3 /* CosmosLocalizedRating.swift */; };
+		C31A1EC6B8C14C595A14E46A9C8A34DB /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCEAACD86BED6A6B0DC70E9D2549F1 /* ActionSheetPicker-3.0-dummy.m */; };
+		C3C830DA8E913ECBCF786ECB939918B2 /* FSCalendarSeparatorDecorationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A061ADF12BD849104A7084B5D320D78 /* FSCalendarSeparatorDecorationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C476BDEFC2C6E6CC23C0613BC70FC1B3 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0383A7CCA8661C7D167C5D0E7D7E82 /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82C87A6CC8DDC4AC2B4BE7E578181BC /* CVCalendarViewPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03E4845ACC18F1E4D0D22E244380043 /* CVCalendarViewPresentationMode.swift */; };
+		C95D091FC52554ECE223F92C4A5BCBF6 /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5820064717E20D8800BF5D8EA9112B3D /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C99487C04757ECF4F73FA1D4519CFD6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		CBF7DBC36A00CABB6819C9B290E5AAAF /* CVSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65057166FB4060B99985F255961A0F74 /* CVSet.swift */; };
+		CC528D67C6AD1CB8EA704605FD876132 /* AMColorPickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49874D0E2FE94867318BDA9FBFA91434 /* AMColorPickerAssets.xcassets */; };
+		D178A786C33FF5B9714ABC308C992649 /* CVCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239071DB1E8CB90E0133D51E2950F033 /* CVCalendarViewAnimator.swift */; };
+		D192D52340F6B27DA840BE2FA9F49EE9 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DDB094C5509775D59F89F18AEE94A4 /* FSCalendarTransitionCoordinator.m */; };
+		D3178ABF19C753D15F673ED046636F61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		D7073682098AAA83F3D21F7F81421999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		DBDA1EAA8BD34C9166C63977D8E5B6FF /* CVCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE52A2F4E36A1F416B70711B9B83359 /* CVCalendarViewAppearance.swift */; };
+		DC0FB2C7C35A218B4FCBE2C5404838FD /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D724B0C5CE4D43A02C52E75F81B351A /* CVCalendarContentViewController.swift */; };
+		DC9E3DF880B0EE01466D79ED6B2B6E1A /* CVCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF51135CA15897502A6CC97BCC99900 /* CVCalendar-dummy.m */; };
+		DEA8746B8ACC9D6CE9EBDEA8F8CB2E27 /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F3806CC0FEFE89022BCE69C088767F0B /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0FD27E2F7F5C05D3390126C7DF35EA6 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF04A738B5187FF56B090D1F3E28A1B /* CosmosSettings.swift */; };
+		E189E12EEDDD9A1484602416282A19F9 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA6E71190A4ADB5DB356D3981A2822 /* CosmosLayerHelper.swift */; };
+		E21C7D317B23EECA5A1FB33A4CF218D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		E2EA729DDCB79B80D6B98A691D7D64B2 /* AMColorPickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FE84E2FF92330640111C24B27DD332 /* AMColorPickerProtocol.swift */; };
+		E30AFF09BE355906C38B27B0CD35F806 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		E49C8DB9807D857C04E0CF8C13D8062F /* CVAuxiliaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB41D08985AD5185941D75B93D2B366 /* CVAuxiliaryView.swift */; };
+		E56AE3ED48D8E87D1CD9718291E0B5E5 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD0B4F3CAFCC844884C0388B623EA7C /* FSCalendarCollectionView.m */; };
+		E575E940E0832EDF4DFC75018D480011 /* Pods-Planner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DE0020528FBE3508E3A9B9F6C58B7 /* Pods-Planner-dummy.m */; };
+		E776F53E707AD1ACF7223305E9EEDBFC /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAEA9DCAA9CE79D076C77FE66592216 /* CosmosDefaultSettings.swift */; };
+		E8CE31EA9F9CA6D823325B704DED1677 /* AMColorPickerTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9065F92D167DE4FD61CA56F3EF1A9C /* AMColorPickerTableView.xib */; };
+		E9A920FE6E5FC6F5F58B6F3AA9B3FDAF /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF920D4A972FA0EBD617C4B67C5D4376 /* StarFillMode.swift */; };
+		EA57614D8C84F2E3DBF1E35F86E1B96B /* CVCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30278BFEFD6CD963F86F95AA8B6A69A5 /* CVCalendarMonthView.swift */; };
+		EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6DEA06254CC67E366A3764661ABFC3 /* DropDownCell.xib */; };
+		F24B093D6266C826678AA69F6C7E8C42 /* CVCalendarTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257851E3FE51926735F626003F9C65C8 /* CVCalendarTouchController.swift */; };
+		F390EE3F6501EA735B348A94C0416E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		F5EEA46FA461EBE1BA796BBECDECCCC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		F73469DCD67695A6102650720D580542 /* AMColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206176BA8D22C36AE7968C444C99577E /* AMColorPickerSlider.swift */; };
+		FC959A2B60814107144EA59FE92D3748 /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D1B1A8CB1D9475AF0C7646AADC55C3 /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB26845AA353936661B049BA64ABD25 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DCC22C234BA8628668498C8422444A /* FSCalendarCalculator.m */; };
+		FFC6CA9E2C9B9EC40CB464302B8E2B68 /* HSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC17B85762D6EF58E3157F93D10595D /* HSB.swift */; };
+		FFF8E80B6D3629DB84D475C728EFCA1D /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8882971709892B2E06466B834923AEA9 /* FSCalendarHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		068A795E6E73A5E66C646F8150A751FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
+			remoteInfo = Cosmos;
+		};
+		078A94B717A316F7324B2E85EAB4A955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9852433A2C25BF4D62F4C0A95A677104;
+			remoteInfo = CULColorPicker;
+		};
+		1C30BA28ECF81A3A5F4BC31AEAFBD2E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 508B6AAEF650BE601D6B0D18E7FA1D59;
+			remoteInfo = AMColorPicker;
+		};
+		24826D6213244AF239A2BD767081E2F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		A6D25B26E7B769FE03983BCB56EE0BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13285D54682BEAD805960F9E6EEB9949;
+			remoteInfo = FSCalendar;
+		};
+		CB69D19937248D1DE275659916006093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14A5FF5028DD371AD924F186F583FAED;
+			remoteInfo = CVCalendar;
+		};
+		E28C68E54D2AE06ECBC030AB60D375DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43B25DDF20FCB9228471F8F5135C866;
+			remoteInfo = "ActionSheetPicker-3.0";
+		};
+		F5022766C07956767DD0B540EE028B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B990BD87169C76A3ED3FE8A9258D91A3;
+			remoteInfo = "Toast-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01192B5858B3D799FD3A12E22467DC02 /* CULColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CULColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		02CCEAACD86BED6A6B0DC70E9D2549F1 /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		030FB4CC32704A7B1A301677391D73FE /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		05318306ECFBBB22553E911DC6F6C149 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		0595B0A442D3EB49DEDCE5174D4C716D /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CB098BC21B759AB5555FEB72A3FC92 /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewDelegate.swift; path = CVCalendar/CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		0AB76D76F12E4C90925D0D32500E55B2 /* CVCalendarMenuViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuViewDelegate.swift; path = CVCalendar/CVCalendarMenuViewDelegate.swift; sourceTree = "<group>"; };
+		0F4542026068265B978BDC1C1D12754D /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		10040316E9D377AACD131F51A499D950 /* Pods-Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Planner.debug.xcconfig"; sourceTree = "<group>"; };
+		100CAC10DD33871F59E4DFB070D37291 /* Pods-Planner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Planner-acknowledgements.plist"; sourceTree = "<group>"; };
+		10248F734C25F3E60B06C3814DA2004E /* Cosmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.release.xcconfig; sourceTree = "<group>"; };
+		113D4D5459C91E466BF566A8F4249F4E /* ActionSheetPicker-3.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ActionSheetPicker-3.0-Info.plist"; sourceTree = "<group>"; };
+		12E75238B5AAC1055552B39EA9867C9D /* CVPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVPresent.swift; path = CVCalendar/CVPresent.swift; sourceTree = "<group>"; };
+		1310F1C45E39FA19350FE13E7922F057 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		13C3079CB6AFC3AC2491AAF5AFE8A090 /* ColorSpaceConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSpaceConverter.swift; path = ColorPicker/ColorSpaceConverter.swift; sourceTree = "<group>"; };
+		15E14EC843E2D2691ED2E38756292C9A /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		164397B84DF1D7102A32C678EFBDE1BA /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		16D5795E9613A5C828C8474A8D88D545 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		179AF4F8D585FF95C044433B01B2293F /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		189D8BD58035E7CD4AE544C3BB1FE84C /* CVCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-prefix.pch"; sourceTree = "<group>"; };
+		18F9C5364BB257FD7E7B36EE4D355D6C /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		19FDEEA1718E90746202EFCC04EB947A /* AMCP_color_wheel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_color_wheel@2x.png"; path = "Source/image/AMCP_color_wheel@2x.png"; sourceTree = "<group>"; };
+		1F3348FB30F9F7FD37562DAA1CB59D93 /* CVCalendarDayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayView.swift; path = CVCalendar/CVCalendarDayView.swift; sourceTree = "<group>"; };
+		2033F3BC9ABA81567001375F43B71052 /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		206176BA8D22C36AE7968C444C99577E /* AMColorPickerSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerSlider.swift; path = Source/view/Slider/AMColorPickerSlider.swift; sourceTree = "<group>"; };
+		20A8630D3D82878E250784992BE31D27 /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		21234715D72D9E0AB1B2096A63D381DF /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		21BF24E5A06A42CDC5EB706A32B274FF /* CVCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CVCalendar.modulemap; sourceTree = "<group>"; };
+		22AF16CB03CC3081800A306C205A4BB4 /* AMColorPickerRGBSliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerRGBSliderView.swift; path = Source/view/AMColorPickerRGBSliderView.swift; sourceTree = "<group>"; };
+		239071DB1E8CB90E0133D51E2950F033 /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimator.swift; path = CVCalendar/CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
+		257851E3FE51926735F626003F9C65C8 /* CVCalendarTouchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarTouchController.swift; path = CVCalendar/CVCalendarTouchController.swift; sourceTree = "<group>"; };
+		26D3FEE7E51F5238F8041E22AD47F643 /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
+		2911FB46F1C2EEA8C60D5B461CAC5097 /* CVShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVShape.swift; path = CVCalendar/CVShape.swift; sourceTree = "<group>"; };
+		2B80D64CD115E2E429EEB14F8864D4FD /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ColorPicker/UIColorExtension.swift; sourceTree = "<group>"; };
+		2C7DE0020528FBE3508E3A9B9F6C58B7 /* Pods-Planner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Planner-dummy.m"; sourceTree = "<group>"; };
+		2C828670EEEB61565A907C9F0AAAF1CB /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		2E3721D02D8B20EC6A3782277FFC5F48 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		2EF542BC0ED381104D9A04DA2509E51B /* Pods-Planner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Planner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FF51135CA15897502A6CC97BCC99900 /* CVCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CVCalendar-dummy.m"; sourceTree = "<group>"; };
+		30278BFEFD6CD963F86F95AA8B6A69A5 /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthView.swift; path = CVCalendar/CVCalendarMonthView.swift; sourceTree = "<group>"; };
+		317436311B5408A2C2D80096832B0323 /* AMColorPickerTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerTableViewCell.swift; path = Source/view/Cell/AMColorPickerTableViewCell.swift; sourceTree = "<group>"; };
+		346DEA08C3DA5F574045058FD813CDD7 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		35774EE4B99BC25F5ECEDF462AA918BB /* ColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerView.swift; path = ColorPicker/ColorPickerView.swift; sourceTree = "<group>"; };
+		35B9693998E202B11781BAE1E878E844 /* Pods-Planner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Planner.modulemap"; sourceTree = "<group>"; };
+		3795FFAF49B8C1B41F5A8C30DAE484B7 /* CVCalendarContentPresentationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarContentPresentationCoordinator.swift; path = CVCalendar/CVCalendarContentPresentationCoordinator.swift; sourceTree = "<group>"; };
+		37DA8BF971BF3B8C049C39BE7BBFD5EB /* ColorPickerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewDelegate.swift; path = ColorPicker/ColorPickerViewDelegate.swift; sourceTree = "<group>"; };
+		384F26844981B26EB1A80A948EDD0DC2 /* Pods-Planner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Planner-frameworks.sh"; sourceTree = "<group>"; };
+		39FAC9058C621338E43179322FF15301 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		3C95A82495A270B5266B0C6B6EC25CF1 /* Cosmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.debug.xcconfig; sourceTree = "<group>"; };
+		3CAFA704F12CB8CE19A0172095CB4A59 /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		3D2244AC71994ED5FBFD7827478F93E7 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		3DB41D08985AD5185941D75B93D2B366 /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVAuxiliaryView.swift; path = CVCalendar/CVAuxiliaryView.swift; sourceTree = "<group>"; };
+		42E51E70929776E16E4021FB7517ADCF /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		4386868C9068CF8BB0463A1B9780D7A4 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		443E62560525FE85F7662120F74FA210 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		4652503600099F4536674F6090FEB594 /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVWeekdaySymbolType.swift; path = CVCalendar/CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
+		494137BE4336CE8BF89921065A4706F5 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		49874D0E2FE94867318BDA9FBFA91434 /* AMColorPickerAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AMColorPickerAssets.xcassets; path = Source/AMColorPickerAssets.xcassets; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B311CDAE20BE2FF7DC76F193F8CA6E6 /* CVStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVStatus.swift; path = CVCalendar/CVStatus.swift; sourceTree = "<group>"; };
+		513F6B70904C5246947381961C09D501 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		5175E80EAD38AC4F7450A82FAB40BBDE /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuView.swift; path = CVCalendar/CVCalendarMenuView.swift; sourceTree = "<group>"; };
+		57789A277F0BFDB5AB75A14F8B87EBC3 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		5807BEA63636B0BAD1D0AC540785BF5B /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		5820064717E20D8800BF5D8EA9112B3D /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		595EDA888DC7CCD284B14EEC75A46D68 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		5B5D42986134B15CC90157F116940A44 /* CULColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CULColorPicker.modulemap; sourceTree = "<group>"; };
+		5E376C302AB9D75D7635C100F1D97E4D /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		5F4C12158D0FB00B3A98916360379ADF /* CVCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CVCalendar.debug.xcconfig; sourceTree = "<group>"; };
+		6241B347F66ABF0D1C5644D11FDEAC6D /* CULColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CULColorPicker-Info.plist"; sourceTree = "<group>"; };
+		646F01009F021531FD43E724DA301FF7 /* FSCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.debug.xcconfig; sourceTree = "<group>"; };
+		64AE188BE85CC014FC72ECF3F6A8167B /* AMCP_cursor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_cursor@2x.png"; path = "Source/image/AMCP_cursor@2x.png"; sourceTree = "<group>"; };
+		65057166FB4060B99985F255961A0F74 /* CVSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSet.swift; path = CVCalendar/CVSet.swift; sourceTree = "<group>"; };
+		650B0E6E37D2768ED208ECBA297BE543 /* CVCalendarWeekday.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekday.swift; path = CVCalendar/CVCalendarWeekday.swift; sourceTree = "<group>"; };
+		66689BCB8BB8DEB28DEB5541A84BF1FE /* Pods-Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Planner.release.xcconfig"; sourceTree = "<group>"; };
+		69BFFCE6DE408E22069662AD93029D7B /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		69FE84E2FF92330640111C24B27DD332 /* AMColorPickerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerProtocol.swift; path = Source/AMColorPickerProtocol.swift; sourceTree = "<group>"; };
+		6BFDF6FCEEB0C273123B93488DCA1BD1 /* Toast-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		6D67DF8569A75E027EDB6CDEC355EFF8 /* CVCalendarWeekContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekContentViewController.swift; path = CVCalendar/CVCalendarWeekContentViewController.swift; sourceTree = "<group>"; };
+		6D724B0C5CE4D43A02C52E75F81B351A /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarContentViewController.swift; path = CVCalendar/CVCalendarContentViewController.swift; sourceTree = "<group>"; };
+		6EA3303DCB98152F90BDFE0A333B5D45 /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		6FAA6E71190A4ADB5DB356D3981A2822 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		6FB378919D1D4236DBCAFF9408E543B3 /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
+		70A2D94EA4088316EADB1A357361972A /* CVCalendarMonthContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthContentViewController.swift; path = CVCalendar/CVCalendarMonthContentViewController.swift; sourceTree = "<group>"; };
+		71B0762B9683D11FADDBED01DFB87B6F /* AMColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMColorPicker.release.xcconfig; sourceTree = "<group>"; };
+		72990BE81A962CC270E17A943489D0B3 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		73A77B70B24E06E85EE0C43664045073 /* AMColorPickerTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerTableView.swift; path = Source/view/AMColorPickerTableView.swift; sourceTree = "<group>"; };
+		749A2C08CF6A686EDFB1BFC911B7FE7C /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		74D8D7C94ACBE2D3A0330A43CAACE6D8 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		74E920B452C5D54B25B1D78B516F3C7E /* AMColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMColorPicker.framework; path = AMColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EA08A9CA6DE3E3C9F0049CF292F7E7 /* AMColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		762EAA6DD81CD4D4B6F90815177B7D0B /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		7A25BAE873E4B71E5BF021A3D060D148 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		7AC8C332A0375205E9C6550FEE99B456 /* CVCalendarManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarManager.swift; path = CVCalendar/CVCalendarManager.swift; sourceTree = "<group>"; };
+		7B1102814406360A60E42ABE6828AC32 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		7B51AC8E611DE2C7A646C7CA5280A329 /* CVCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CVCalendar.release.xcconfig; sourceTree = "<group>"; };
+		7B7C560E6C91B400F95F23D39658D85A /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		7BC0B1468E064C265E64F11742244B86 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		7D3F5284B3E900BB971138DF201D441A /* AMCP_slider_thumb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AMCP_slider_thumb@2x.png"; path = "Source/image/AMCP_slider_thumb@2x.png"; sourceTree = "<group>"; };
+		7E8C92F5C956C954F66E6570DBDC6806 /* AMColorPickerWheelView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerWheelView.xib; path = Source/view/AMColorPickerWheelView.xib; sourceTree = "<group>"; };
+		802DAA68C61C5DD736E2025135E56FAC /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		8055926C5C1AA720E5DD7A274C2AB0D8 /* CVRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVRange.swift; path = CVCalendar/CVRange.swift; sourceTree = "<group>"; };
+		80DEB1B718DE08CC0917D886880EC013 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		83C8E81E71E97E99B84453251CB990BF /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		8882971709892B2E06466B834923AEA9 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		89767841C80F16F4E46B59C64D00FDCE /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		8A061ADF12BD849104A7084B5D320D78 /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarSeparatorDecorationView.h; path = FSCalendar/FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
+		8A824410885B210264739680B3830392 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		8AE99365D1ADA0FA2D9FFA2650DC723B /* RGB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RGB.swift; path = ColorPicker/RGB.swift; sourceTree = "<group>"; };
+		8CC17B85762D6EF58E3157F93D10595D /* HSB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSB.swift; path = ColorPicker/HSB.swift; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DB7089C552281B54B97712A2C73A746 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		8DD7D2BE0BA773933E4CC4ABE1A5DCD5 /* ActionSheetPicker-3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.release.xcconfig"; sourceTree = "<group>"; };
+		8E646C4D25041E19C44E04F982DC8315 /* FSCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.release.xcconfig; sourceTree = "<group>"; };
+		8F6DEA06254CC67E366A3764661ABFC3 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		90E98368DF726D4439378ECB4D26AB37 /* Pods-Planner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Planner-umbrella.h"; sourceTree = "<group>"; };
+		910FF63E18F80D492CBAF0BAB0AB88D0 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		917435D7788A6A88FE9251459F606F0A /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		92055062B8B5209878785FD44D97254F /* CULColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CULColorPicker.debug.xcconfig; sourceTree = "<group>"; };
+		931ADE252CF10AD8082874BA71677DDD /* FSCalendarSeparatorDecorationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarSeparatorDecorationView.m; path = FSCalendar/FSCalendarSeparatorDecorationView.m; sourceTree = "<group>"; };
+		95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCalendar.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C5813C60D8BAA49F54EAA3CBE82FAE /* CVScrollDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVScrollDirection.swift; path = CVCalendar/CVScrollDirection.swift; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDDADAF5CF6FBEAB7DE2E69D1B5CFC5 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		9CAEA9DCAA9CE79D076C77FE66592216 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		9D38FA27671A527D52C13B5D8A46B4B6 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		9D59F30AF85A6A3564BF2E83DF519416 /* Pods_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Planner.framework; path = "Pods-Planner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EEB4C6A2BD79C57620B3CA95730D319 /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearanceDelegate.swift; path = CVCalendar/CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		9F6C5813978D503497FEE5828B3FE483 /* AMColorPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerViewController.xib; path = Source/AMColorPickerViewController.xib; sourceTree = "<group>"; };
+		9FD5E54E04C50F19B5BB9F9D275A9097 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A045BBCBB4A5CD0D0E9B5D4709646A66 /* CVCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-umbrella.h"; sourceTree = "<group>"; };
+		A07E8CACE12050DAA82F767D4D443EDB /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		A0BAFE4956E25C439234AC6A75F097F4 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		A45236B3E558F964DB9F966CB6693C75 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		A467D861FCBC41A238B4945AD8842CF8 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		A49EAB4C8DC52A717CAA7F7FECB225CC /* AMColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMColorPicker-dummy.m"; sourceTree = "<group>"; };
+		A5ADFB3E76D29DDE0D3DDD3E96E0A9B8 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		A85B3587DDC31E1EF10BF0B99BA9B10B /* ActionSheetPicker-3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		A9AD06BC86F265AEF1328CDF97059D83 /* CVDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVDate.swift; path = CVCalendar/CVDate.swift; sourceTree = "<group>"; };
+		AA012C2EA7AD803B89F88CE444DD9C2B /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		ABFD027EDC3CB7B309B0F85F6D381EE6 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		AD0383A7CCA8661C7D167C5D0E7D7E82 /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		AE43B3C0E3E93CDCE9AAF27FC66EEB09 /* CULColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CULColorPicker-dummy.m"; sourceTree = "<group>"; };
+		AEF00E310231A65E0A18DBFE5A21BAC1 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		B12CE105D3444E5875F61497B7662EC0 /* AMColorPickerWheelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerWheelView.swift; path = Source/view/AMColorPickerWheelView.swift; sourceTree = "<group>"; };
+		B6DCC22C234BA8628668498C8422444A /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		BA86CC341DE3F25D906587ED31614B06 /* AMColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMColorPickerViewController.swift; path = Source/AMColorPickerViewController.swift; sourceTree = "<group>"; };
+		BD5DB87F23D01BD3106F9696D0B12F2A /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		BD8FBE284D88685E5B1966141D16EF91 /* CULColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CULColorPicker.release.xcconfig; sourceTree = "<group>"; };
+		BF920D4A972FA0EBD617C4B67C5D4376 /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		BFDBB979567A9BBE4DFFE0D0EA06B168 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		C1F97C642F33AE54E9BD0ED828F7B905 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		C589B10F09D5379CD62596D1D79D606A /* AMColorPickerRGBSliderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerRGBSliderView.xib; path = Source/view/AMColorPickerRGBSliderView.xib; sourceTree = "<group>"; };
+		C66F82FD696D6520370BDA7E763033A5 /* FSCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSCalendar-Info.plist"; sourceTree = "<group>"; };
+		C684D435B4ED7C72CFDFC4C1584B7E15 /* CVSelectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSelectionType.swift; path = CVCalendar/CVSelectionType.swift; sourceTree = "<group>"; };
+		CBB963CF06210E22B75EDCC9A4A2ADBC /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		CBBD1C34A2313450C60226BB5C037E9A /* AMColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMColorPicker.debug.xcconfig; sourceTree = "<group>"; };
+		CBDEE19AF0409915A136E93C63FE646C /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		CC4B63E92DDD2DF1237BED5251B1617C /* CULColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CULColorPicker.framework; path = CULColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD89D336FB9671189C9CE344491CE5EF /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		CDE52A2F4E36A1F416B70711B9B83359 /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearance.swift; path = CVCalendar/CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		CE19510B8749D73AD391C5F4695B71DB /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		D1D1B1A8CB1D9475AF0C7646AADC55C3 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		D2B01B8D1BB09E4F1E2E0F45A890AFF7 /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		D375A7DA4145312D13C761F624AD9337 /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayViewControlCoordinator.swift; path = CVCalendar/CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
+		D4FC70AC13D099D533F1597DED3A7B1B /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		D5A74B05EE3E7ACEDCBB35A80EF3F90B /* Toast-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Swift-Info.plist"; sourceTree = "<group>"; };
+		D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionSheetPicker_3_0.framework; path = "ActionSheetPicker-3.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76BDE7A3B328CE0E6C90D157C4939A3 /* CULColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CULColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		D76E46D2415739309125B5D263950ED2 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		D77EB0E37013A215342A50350D51FE80 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		DA762FFCB3FE3536F4D0E7DF5FFC98C5 /* AMColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMColorPicker-Info.plist"; sourceTree = "<group>"; };
+		DBF04A738B5187FF56B090D1F3E28A1B /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		DDFEF53C462EBB53BCFEC66843E18894 /* Pods-Planner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Planner-Info.plist"; sourceTree = "<group>"; };
+		DF4A369C939BF8C1A16051FC71FFDFC8 /* CVCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CVCalendar.framework; path = CVCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01753C6989E56DE989CFC509288983B /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		E03E4845ACC18F1E4D0D22E244380043 /* CVCalendarViewPresentationMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewPresentationMode.swift; path = CVCalendar/CVCalendarViewPresentationMode.swift; sourceTree = "<group>"; };
+		E1A4E76D88D5C52DCF46A43E5461DABA /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		E56B1450C83EC9B83B6C4A707D8F8113 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		E64B95748C330B79AEAA2D4035FD2116 /* AMColorPickerTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerTableViewCell.xib; path = Source/view/Cell/AMColorPickerTableViewCell.xib; sourceTree = "<group>"; };
+		E6A4957F2D390B35DA7CC400989AAACA /* AMColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		E78E171378AE5F91D226F435C788096B /* CVCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CVCalendar-Info.plist"; sourceTree = "<group>"; };
+		E820E976A3AFBF7A79B20520DA29E134 /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		EA0BAC1D3365EBE222918F400094DE8A /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimatorDelegate.swift; path = CVCalendar/CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
+		EA5846EB46B0AAD033C171CF2AB84E4C /* AMColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMColorPicker.modulemap; sourceTree = "<group>"; };
+		EAD0B4F3CAFCC844884C0388B623EA7C /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		ED2DF9F36202FFF157DABC0366E2CA53 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		EDA3190E78348250DB66046884B36C61 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		EE235D4EF95EAB4B4C266B79AA44199A /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		EE9065F92D167DE4FD61CA56F3EF1A9C /* AMColorPickerTableView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMColorPickerTableView.xib; path = Source/view/AMColorPickerTableView.xib; sourceTree = "<group>"; };
+		F3806CC0FEFE89022BCE69C088767F0B /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		F7A1D3ACE8622F31A7A4C349AF612F6E /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekView.swift; path = CVCalendar/CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		F89AEE3C69F97E35F714BEA26FCCD956 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		F8C17BC38C63CE14D0C9F27FC89D6A34 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		F8E83FB40A607B92C102FCF41A1D57A4 /* CVCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarView.swift; path = CVCalendar/CVCalendarView.swift; sourceTree = "<group>"; };
+		F9DDB094C5509775D59F89F18AEE94A4 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		FB1C4E46A16186912B9A1BD693B959B0 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		FC133C8C77D91B4A3381CA2BE423EA5D /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		FDB0543CF2927B3B0A7520939D9E037B /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCalendar.modulemap; sourceTree = "<group>"; };
+		FFEC766489DCA06CD4390FC1E0992D93 /* Toast-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32EC0C7E523CA338CA9DDEC83E50A557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3178ABF19C753D15F673ED046636F61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB46C5BAA16D47CA55D00459B31D084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EEA46FA461EBE1BA796BBECDECCCC2 /* Foundation.framework in Frameworks */,
+				5E2E7D406AE90AD8C485F9546A12B9E2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6102CF7EA55F5A7D669F88BF0D1A701F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753C8C42CEFBED94E1F1E752955F0254 /* Foundation.framework in Frameworks */,
+				E30AFF09BE355906C38B27B0CD35F806 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D27353645F0E11CF3A1C8A1CC9F25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930E9816ABEB66EA175EE1946469E5BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9727840973A9C2692E58F7089A7C243E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99487C04757ECF4F73FA1D4519CFD6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07E6885079A625938CA00D5FFE05A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7073682098AAA83F3D21F7F81421999 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93B0F6F7A24587A13A4DC4628DF35C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F390EE3F6501EA735B348A94C0416E8E /* Foundation.framework in Frameworks */,
+				BA4618552515686F83F7873D094EB189 /* QuartzCore.framework in Frameworks */,
+				93D3B2EC7BAD20C4F2269A79F8FF972B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35400428F84DDC27039ED7530C842F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21C7D317B23EECA5A1FB33A4CF218D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1AF85FC1246D05E670ED0CE453B016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11644704411365AF68FCAB0111D9D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B20FFF0C3451A5E72802DC229E7D86 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				5E376C302AB9D75D7635C100F1D97E4D /* DPDConstants.swift */,
+				910FF63E18F80D492CBAF0BAB0AB88D0 /* DPDKeyboardListener.swift */,
+				A0BAFE4956E25C439234AC6A75F097F4 /* DPDUIView+Extension.swift */,
+				18F9C5364BB257FD7E7B36EE4D355D6C /* DropDown.swift */,
+				ED2DF9F36202FFF157DABC0366E2CA53 /* DropDown+Appearance.swift */,
+				15E14EC843E2D2691ED2E38756292C9A /* DropDownCell.swift */,
+				17D0250B7054A9C156A31BF922FEDD97 /* Resources */,
+				5B4974E9EF59E7B35DCEA1D5020CFD3A /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05C19483C42609CA07D8F7B5FF06D770 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69BFFCE6DE408E22069662AD93029D7B /* Toast-Swift.modulemap */,
+				CE19510B8749D73AD391C5F4695B71DB /* Toast-Swift-dummy.m */,
+				D5A74B05EE3E7ACEDCBB35A80EF3F90B /* Toast-Swift-Info.plist */,
+				7B1102814406360A60E42ABE6828AC32 /* Toast-Swift-prefix.pch */,
+				21234715D72D9E0AB1B2096A63D381DF /* Toast-Swift-umbrella.h */,
+				6BFDF6FCEEB0C273123B93488DCA1BD1 /* Toast-Swift.debug.xcconfig */,
+				FFEC766489DCA06CD4390FC1E0992D93 /* Toast-Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		159D6256747F568AFA8EBA8A14FC0E5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5846EB46B0AAD033C171CF2AB84E4C /* AMColorPicker.modulemap */,
+				A49EAB4C8DC52A717CAA7F7FECB225CC /* AMColorPicker-dummy.m */,
+				DA762FFCB3FE3536F4D0E7DF5FFC98C5 /* AMColorPicker-Info.plist */,
+				75EA08A9CA6DE3E3C9F0049CF292F7E7 /* AMColorPicker-prefix.pch */,
+				E6A4957F2D390B35DA7CC400989AAACA /* AMColorPicker-umbrella.h */,
+				CBBD1C34A2313450C60226BB5C037E9A /* AMColorPicker.debug.xcconfig */,
+				71B0762B9683D11FADDBED01DFB87B6F /* AMColorPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMColorPicker";
+			sourceTree = "<group>";
+		};
+		17D0250B7054A9C156A31BF922FEDD97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F6DEA06254CC67E366A3764661ABFC3 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		31F110F455145C9B882B31215507C759 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				838B1C0BEAB4A75AFF821BF5C8ACCA88 /* Pods-Planner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3291D1D7C23A09DA930FE5C178AD6676 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2033F3BC9ABA81567001375F43B71052 /* ActionSheetPicker-3.0.modulemap */,
+				02CCEAACD86BED6A6B0DC70E9D2549F1 /* ActionSheetPicker-3.0-dummy.m */,
+				113D4D5459C91E466BF566A8F4249F4E /* ActionSheetPicker-3.0-Info.plist */,
+				7B7C560E6C91B400F95F23D39658D85A /* ActionSheetPicker-3.0-prefix.pch */,
+				E820E976A3AFBF7A79B20520DA29E134 /* ActionSheetPicker-3.0-umbrella.h */,
+				A85B3587DDC31E1EF10BF0B99BA9B10B /* ActionSheetPicker-3.0.debug.xcconfig */,
+				8DD7D2BE0BA773933E4CC4ABE1A5DCD5 /* ActionSheetPicker-3.0.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		5ABDDD854FA88BB899DF330063912731 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49874D0E2FE94867318BDA9FBFA91434 /* AMColorPickerAssets.xcassets */,
+				C589B10F09D5379CD62596D1D79D606A /* AMColorPickerRGBSliderView.xib */,
+				EE9065F92D167DE4FD61CA56F3EF1A9C /* AMColorPickerTableView.xib */,
+				E64B95748C330B79AEAA2D4035FD2116 /* AMColorPickerTableViewCell.xib */,
+				9F6C5813978D503497FEE5828B3FE483 /* AMColorPickerViewController.xib */,
+				7E8C92F5C956C954F66E6570DBDC6806 /* AMColorPickerWheelView.xib */,
+				19FDEEA1718E90746202EFCC04EB947A /* AMCP_color_wheel@2x.png */,
+				64AE188BE85CC014FC72ECF3F6A8167B /* AMCP_cursor@2x.png */,
+				7D3F5284B3E900BB971138DF201D441A /* AMCP_slider_thumb@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5B4974E9EF59E7B35DCEA1D5020CFD3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4FC70AC13D099D533F1597DED3A7B1B /* DropDown.modulemap */,
+				7A25BAE873E4B71E5BF021A3D060D148 /* DropDown-dummy.m */,
+				CD89D336FB9671189C9CE344491CE5EF /* DropDown-Info.plist */,
+				2E3721D02D8B20EC6A3782277FFC5F48 /* DropDown-prefix.pch */,
+				AA012C2EA7AD803B89F88CE444DD9C2B /* DropDown-umbrella.h */,
+				5807BEA63636B0BAD1D0AC540785BF5B /* DropDown.debug.xcconfig */,
+				179AF4F8D585FF95C044433B01B2293F /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		6559D1C20E6854CA8C0B7BB3B84AA30E /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				494137BE4336CE8BF89921065A4706F5 /* CosmosAccessibility.swift */,
+				9CAEA9DCAA9CE79D076C77FE66592216 /* CosmosDefaultSettings.swift */,
+				6FAA6E71190A4ADB5DB356D3981A2822 /* CosmosLayerHelper.swift */,
+				FB1C4E46A16186912B9A1BD693B959B0 /* CosmosLayers.swift */,
+				72990BE81A962CC270E17A943489D0B3 /* CosmosLocalizedRating.swift */,
+				D2B01B8D1BB09E4F1E2E0F45A890AFF7 /* CosmosRating.swift */,
+				DBF04A738B5187FF56B090D1F3E28A1B /* CosmosSettings.swift */,
+				7BC0B1468E064C265E64F11742244B86 /* CosmosSize.swift */,
+				A467D861FCBC41A238B4945AD8842CF8 /* CosmosText.swift */,
+				9BDDADAF5CF6FBEAB7DE2E69D1B5CFC5 /* CosmosTouch.swift */,
+				CBB963CF06210E22B75EDCC9A4A2ADBC /* CosmosTouchTarget.swift */,
+				513F6B70904C5246947381961C09D501 /* CosmosView.swift */,
+				595EDA888DC7CCD284B14EEC75A46D68 /* RightToLeft.swift */,
+				BF920D4A972FA0EBD617C4B67C5D4376 /* StarFillMode.swift */,
+				802DAA68C61C5DD736E2025135E56FAC /* StarLayer.swift */,
+				6F146239D939B94FF169BA5D109F46C0 /* Support Files */,
+			);
+			name = Cosmos;
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		6F146239D939B94FF169BA5D109F46C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				443E62560525FE85F7662120F74FA210 /* Cosmos.modulemap */,
+				164397B84DF1D7102A32C678EFBDE1BA /* Cosmos-dummy.m */,
+				26D3FEE7E51F5238F8041E22AD47F643 /* Cosmos-Info.plist */,
+				4386868C9068CF8BB0463A1B9780D7A4 /* Cosmos-prefix.pch */,
+				030FB4CC32704A7B1A301677391D73FE /* Cosmos-umbrella.h */,
+				3C95A82495A270B5266B0C6B6EC25CF1 /* Cosmos.debug.xcconfig */,
+				10248F734C25F3E60B06C3814DA2004E /* Cosmos.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		73EA00E2485D7309490F1A325612C803 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDB0543CF2927B3B0A7520939D9E037B /* FSCalendar.modulemap */,
+				762EAA6DD81CD4D4B6F90815177B7D0B /* FSCalendar-dummy.m */,
+				C66F82FD696D6520370BDA7E763033A5 /* FSCalendar-Info.plist */,
+				0F4542026068265B978BDC1C1D12754D /* FSCalendar-prefix.pch */,
+				6FB378919D1D4236DBCAFF9408E543B3 /* FSCalendar-umbrella.h */,
+				646F01009F021531FD43E724DA301FF7 /* FSCalendar.debug.xcconfig */,
+				8E646C4D25041E19C44E04F982DC8315 /* FSCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		7CE3551D5430350A12C53CE1D9A10DDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B5D42986134B15CC90157F116940A44 /* CULColorPicker.modulemap */,
+				AE43B3C0E3E93CDCE9AAF27FC66EEB09 /* CULColorPicker-dummy.m */,
+				6241B347F66ABF0D1C5644D11FDEAC6D /* CULColorPicker-Info.plist */,
+				01192B5858B3D799FD3A12E22467DC02 /* CULColorPicker-prefix.pch */,
+				D76BDE7A3B328CE0E6C90D157C4939A3 /* CULColorPicker-umbrella.h */,
+				92055062B8B5209878785FD44D97254F /* CULColorPicker.debug.xcconfig */,
+				BD8FBE284D88685E5B1966141D16EF91 /* CULColorPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CULColorPicker";
+			sourceTree = "<group>";
+		};
+		838B1C0BEAB4A75AFF821BF5C8ACCA88 /* Pods-Planner */ = {
+			isa = PBXGroup;
+			children = (
+				35B9693998E202B11781BAE1E878E844 /* Pods-Planner.modulemap */,
+				2EF542BC0ED381104D9A04DA2509E51B /* Pods-Planner-acknowledgements.markdown */,
+				100CAC10DD33871F59E4DFB070D37291 /* Pods-Planner-acknowledgements.plist */,
+				2C7DE0020528FBE3508E3A9B9F6C58B7 /* Pods-Planner-dummy.m */,
+				384F26844981B26EB1A80A948EDD0DC2 /* Pods-Planner-frameworks.sh */,
+				DDFEF53C462EBB53BCFEC66843E18894 /* Pods-Planner-Info.plist */,
+				90E98368DF726D4439378ECB4D26AB37 /* Pods-Planner-umbrella.h */,
+				10040316E9D377AACD131F51A499D950 /* Pods-Planner.debug.xcconfig */,
+				66689BCB8BB8DEB28DEB5541A84BF1FE /* Pods-Planner.release.xcconfig */,
+			);
+			name = "Pods-Planner";
+			path = "Target Support Files/Pods-Planner";
+			sourceTree = "<group>";
+		};
+		A9DA74431963466F2C81C754E39E3E47 /* CVCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3DB41D08985AD5185941D75B93D2B366 /* CVAuxiliaryView.swift */,
+				3795FFAF49B8C1B41F5A8C30DAE484B7 /* CVCalendarContentPresentationCoordinator.swift */,
+				6D724B0C5CE4D43A02C52E75F81B351A /* CVCalendarContentViewController.swift */,
+				1F3348FB30F9F7FD37562DAA1CB59D93 /* CVCalendarDayView.swift */,
+				D375A7DA4145312D13C761F624AD9337 /* CVCalendarDayViewControlCoordinator.swift */,
+				7AC8C332A0375205E9C6550FEE99B456 /* CVCalendarManager.swift */,
+				5175E80EAD38AC4F7450A82FAB40BBDE /* CVCalendarMenuView.swift */,
+				0AB76D76F12E4C90925D0D32500E55B2 /* CVCalendarMenuViewDelegate.swift */,
+				70A2D94EA4088316EADB1A357361972A /* CVCalendarMonthContentViewController.swift */,
+				30278BFEFD6CD963F86F95AA8B6A69A5 /* CVCalendarMonthView.swift */,
+				257851E3FE51926735F626003F9C65C8 /* CVCalendarTouchController.swift */,
+				F8E83FB40A607B92C102FCF41A1D57A4 /* CVCalendarView.swift */,
+				239071DB1E8CB90E0133D51E2950F033 /* CVCalendarViewAnimator.swift */,
+				EA0BAC1D3365EBE222918F400094DE8A /* CVCalendarViewAnimatorDelegate.swift */,
+				CDE52A2F4E36A1F416B70711B9B83359 /* CVCalendarViewAppearance.swift */,
+				9EEB4C6A2BD79C57620B3CA95730D319 /* CVCalendarViewAppearanceDelegate.swift */,
+				06CB098BC21B759AB5555FEB72A3FC92 /* CVCalendarViewDelegate.swift */,
+				E03E4845ACC18F1E4D0D22E244380043 /* CVCalendarViewPresentationMode.swift */,
+				6D67DF8569A75E027EDB6CDEC355EFF8 /* CVCalendarWeekContentViewController.swift */,
+				650B0E6E37D2768ED208ECBA297BE543 /* CVCalendarWeekday.swift */,
+				F7A1D3ACE8622F31A7A4C349AF612F6E /* CVCalendarWeekView.swift */,
+				A9AD06BC86F265AEF1328CDF97059D83 /* CVDate.swift */,
+				12E75238B5AAC1055552B39EA9867C9D /* CVPresent.swift */,
+				8055926C5C1AA720E5DD7A274C2AB0D8 /* CVRange.swift */,
+				99C5813C60D8BAA49F54EAA3CBE82FAE /* CVScrollDirection.swift */,
+				C684D435B4ED7C72CFDFC4C1584B7E15 /* CVSelectionType.swift */,
+				65057166FB4060B99985F255961A0F74 /* CVSet.swift */,
+				2911FB46F1C2EEA8C60D5B461CAC5097 /* CVShape.swift */,
+				4B311CDAE20BE2FF7DC76F193F8CA6E6 /* CVStatus.swift */,
+				4652503600099F4536674F6090FEB594 /* CVWeekdaySymbolType.swift */,
+				ACE916C9334EF5E5228554A281C7AC69 /* Support Files */,
+			);
+			name = CVCalendar;
+			path = CVCalendar;
+			sourceTree = "<group>";
+		};
+		ACE916C9334EF5E5228554A281C7AC69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21BF24E5A06A42CDC5EB706A32B274FF /* CVCalendar.modulemap */,
+				2FF51135CA15897502A6CC97BCC99900 /* CVCalendar-dummy.m */,
+				E78E171378AE5F91D226F435C788096B /* CVCalendar-Info.plist */,
+				189D8BD58035E7CD4AE544C3BB1FE84C /* CVCalendar-prefix.pch */,
+				A045BBCBB4A5CD0D0E9B5D4709646A66 /* CVCalendar-umbrella.h */,
+				5F4C12158D0FB00B3A98916360379ADF /* CVCalendar.debug.xcconfig */,
+				7B51AC8E611DE2C7A646C7CA5280A329 /* CVCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CVCalendar";
+			sourceTree = "<group>";
+		};
+		B587D37BE1EA8C667FBF9C9E2B662CF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC2148D54F0B68933A60722E011784D6 /* ActionSheetPicker-3.0 */,
+				E9BB5E5629219F95404A48EBD6661E67 /* AMColorPicker */,
+				6559D1C20E6854CA8C0B7BB3B84AA30E /* Cosmos */,
+				FFAED7A46D682ABC01C7A581855C8A5A /* CULColorPicker */,
+				A9DA74431963466F2C81C754E39E3E47 /* CVCalendar */,
+				01B20FFF0C3451A5E72802DC229E7D86 /* DropDown */,
+				F509BB21B768D1E6EC61528B4B577D0E /* FSCalendar */,
+				CC768FD18D82EA1D5DC834A3AD478C05 /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC2148D54F0B68933A60722E011784D6 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D76E46D2415739309125B5D263950ED2 /* AbstractActionSheetPicker.h */,
+				C1F97C642F33AE54E9BD0ED828F7B905 /* AbstractActionSheetPicker.m */,
+				D1D1B1A8CB1D9475AF0C7646AADC55C3 /* ActionSheetCustomPicker.h */,
+				AEF00E310231A65E0A18DBFE5A21BAC1 /* ActionSheetCustomPicker.m */,
+				74D8D7C94ACBE2D3A0330A43CAACE6D8 /* ActionSheetCustomPickerDelegate.h */,
+				42E51E70929776E16E4021FB7517ADCF /* ActionSheetDatePicker.h */,
+				E1A4E76D88D5C52DCF46A43E5461DABA /* ActionSheetDatePicker.m */,
+				917435D7788A6A88FE9251459F606F0A /* ActionSheetDistancePicker.h */,
+				A45236B3E558F964DB9F966CB6693C75 /* ActionSheetDistancePicker.m */,
+				A07E8CACE12050DAA82F767D4D443EDB /* ActionSheetLocalePicker.h */,
+				F89AEE3C69F97E35F714BEA26FCCD956 /* ActionSheetLocalePicker.m */,
+				16D5795E9613A5C828C8474A8D88D545 /* ActionSheetMultipleStringPicker.h */,
+				3D2244AC71994ED5FBFD7827478F93E7 /* ActionSheetMultipleStringPicker.m */,
+				9FD5E54E04C50F19B5BB9F9D275A9097 /* ActionSheetPicker.h */,
+				E01753C6989E56DE989CFC509288983B /* ActionSheetStringPicker.h */,
+				39FAC9058C621338E43179322FF15301 /* ActionSheetStringPicker.m */,
+				FC133C8C77D91B4A3381CA2BE423EA5D /* DistancePickerView.h */,
+				20A8630D3D82878E250784992BE31D27 /* DistancePickerView.m */,
+				5820064717E20D8800BF5D8EA9112B3D /* SWActionSheet.h */,
+				BD5DB87F23D01BD3106F9696D0B12F2A /* SWActionSheet.m */,
+				3291D1D7C23A09DA930FE5C178AD6676 /* Support Files */,
+			);
+			name = "ActionSheetPicker-3.0";
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		CC768FD18D82EA1D5DC834A3AD478C05 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				89767841C80F16F4E46B59C64D00FDCE /* Toast.swift */,
+				05C19483C42609CA07D8F7B5FF06D770 /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				B587D37BE1EA8C667FBF9C9E2B662CF3 /* Pods */,
+				DC438FFB080EE5F640DD969A27A9D8FA /* Products */,
+				31F110F455145C9B882B31215507C759 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DC438FFB080EE5F640DD969A27A9D8FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */,
+				74E920B452C5D54B25B1D78B516F3C7E /* AMColorPicker.framework */,
+				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */,
+				CC4B63E92DDD2DF1237BED5251B1617C /* CULColorPicker.framework */,
+				DF4A369C939BF8C1A16051FC71FFDFC8 /* CVCalendar.framework */,
+				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
+				95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */,
+				9D59F30AF85A6A3564BF2E83DF519416 /* Pods_Planner.framework */,
+				D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9BB5E5629219F95404A48EBD6661E67 /* AMColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				69FE84E2FF92330640111C24B27DD332 /* AMColorPickerProtocol.swift */,
+				22AF16CB03CC3081800A306C205A4BB4 /* AMColorPickerRGBSliderView.swift */,
+				206176BA8D22C36AE7968C444C99577E /* AMColorPickerSlider.swift */,
+				73A77B70B24E06E85EE0C43664045073 /* AMColorPickerTableView.swift */,
+				317436311B5408A2C2D80096832B0323 /* AMColorPickerTableViewCell.swift */,
+				BA86CC341DE3F25D906587ED31614B06 /* AMColorPickerViewController.swift */,
+				B12CE105D3444E5875F61497B7662EC0 /* AMColorPickerWheelView.swift */,
+				5ABDDD854FA88BB899DF330063912731 /* Resources */,
+				159D6256747F568AFA8EBA8A14FC0E5D /* Support Files */,
+			);
+			name = AMColorPicker;
+			path = AMColorPicker;
+			sourceTree = "<group>";
+		};
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F509BB21B768D1E6EC61528B4B577D0E /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				EE235D4EF95EAB4B4C266B79AA44199A /* FSCalendar.h */,
+				D77EB0E37013A215342A50350D51FE80 /* FSCalendar.m */,
+				05318306ECFBBB22553E911DC6F6C149 /* FSCalendarAppearance.h */,
+				8A824410885B210264739680B3830392 /* FSCalendarAppearance.m */,
+				F8C17BC38C63CE14D0C9F27FC89D6A34 /* FSCalendarCalculator.h */,
+				B6DCC22C234BA8628668498C8422444A /* FSCalendarCalculator.m */,
+				AD0383A7CCA8661C7D167C5D0E7D7E82 /* FSCalendarCell.h */,
+				83C8E81E71E97E99B84453251CB990BF /* FSCalendarCell.m */,
+				F3806CC0FEFE89022BCE69C088767F0B /* FSCalendarCollectionView.h */,
+				EAD0B4F3CAFCC844884C0388B623EA7C /* FSCalendarCollectionView.m */,
+				ABFD027EDC3CB7B309B0F85F6D381EE6 /* FSCalendarCollectionViewLayout.h */,
+				A5ADFB3E76D29DDE0D3DDD3E96E0A9B8 /* FSCalendarCollectionViewLayout.m */,
+				6EA3303DCB98152F90BDFE0A333B5D45 /* FSCalendarConstants.h */,
+				3CAFA704F12CB8CE19A0172095CB4A59 /* FSCalendarConstants.m */,
+				BFDBB979567A9BBE4DFFE0D0EA06B168 /* FSCalendarDelegationFactory.h */,
+				80DEB1B718DE08CC0917D886880EC013 /* FSCalendarDelegationFactory.m */,
+				8DB7089C552281B54B97712A2C73A746 /* FSCalendarDelegationProxy.h */,
+				EDA3190E78348250DB66046884B36C61 /* FSCalendarDelegationProxy.m */,
+				1310F1C45E39FA19350FE13E7922F057 /* FSCalendarDynamicHeader.h */,
+				CBDEE19AF0409915A136E93C63FE646C /* FSCalendarExtensions.h */,
+				9D38FA27671A527D52C13B5D8A46B4B6 /* FSCalendarExtensions.m */,
+				2C828670EEEB61565A907C9F0AAAF1CB /* FSCalendarHeaderView.h */,
+				8882971709892B2E06466B834923AEA9 /* FSCalendarHeaderView.m */,
+				8A061ADF12BD849104A7084B5D320D78 /* FSCalendarSeparatorDecorationView.h */,
+				931ADE252CF10AD8082874BA71677DDD /* FSCalendarSeparatorDecorationView.m */,
+				57789A277F0BFDB5AB75A14F8B87EBC3 /* FSCalendarStickyHeader.h */,
+				E56B1450C83EC9B83B6C4A707D8F8113 /* FSCalendarStickyHeader.m */,
+				0595B0A442D3EB49DEDCE5174D4C716D /* FSCalendarTransitionCoordinator.h */,
+				F9DDB094C5509775D59F89F18AEE94A4 /* FSCalendarTransitionCoordinator.m */,
+				346DEA08C3DA5F574045058FD813CDD7 /* FSCalendarWeekdayView.h */,
+				749A2C08CF6A686EDFB1BFC911B7FE7C /* FSCalendarWeekdayView.m */,
+				73EA00E2485D7309490F1A325612C803 /* Support Files */,
+			);
+			name = FSCalendar;
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		FFAED7A46D682ABC01C7A581855C8A5A /* CULColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				35774EE4B99BC25F5ECEDF462AA918BB /* ColorPickerView.swift */,
+				37DA8BF971BF3B8C049C39BE7BBFD5EB /* ColorPickerViewDelegate.swift */,
+				13C3079CB6AFC3AC2491AAF5AFE8A090 /* ColorSpaceConverter.swift */,
+				8CC17B85762D6EF58E3157F93D10595D /* HSB.swift */,
+				8AE99365D1ADA0FA2D9FFA2650DC723B /* RGB.swift */,
+				2B80D64CD115E2E429EEB14F8864D4FD /* UIColorExtension.swift */,
+				7CE3551D5430350A12C53CE1D9A10DDA /* Support Files */,
+			);
+			name = CULColorPicker;
+			path = CULColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A129A6C1E23626D87C7F5810562798B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AD1DDBEBBB4B198593A4D2FFEE8C69 /* Pods-Planner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB5683F7D1AA8FB2F94DA252A664DB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB719E426A977C1161DD1AA9E2B1C7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E06FC16AD490E415C5FFF1F3D1C59DB /* AMColorPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484BBCC71DBF70F31FA34A299BC68E11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440E0DE7867D8B0CD53E5DAD669168AE /* CVCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541A0721D8D26374CF7CF04B1473A45A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2024EE5E265681137A9FEBC630E6E0F1 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9771783054A6B885213A9558CAFE4D90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD3FA0A001E60703F933BD41B429258 /* CULColorPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61A031D87FA293F87D12AFEEAD385CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB76EF4157ADE0806FA3B4A1549EAD2 /* FSCalendar-umbrella.h in Headers */,
+				0EDCAFA93DA0E7D98A2CF2386FEAA550 /* FSCalendar.h in Headers */,
+				58AD6758D9237AFCBAE75CF5AA275C47 /* FSCalendarAppearance.h in Headers */,
+				4B06E7A9994CCDB40333001E83F1FD79 /* FSCalendarCalculator.h in Headers */,
+				C476BDEFC2C6E6CC23C0613BC70FC1B3 /* FSCalendarCell.h in Headers */,
+				DEA8746B8ACC9D6CE9EBDEA8F8CB2E27 /* FSCalendarCollectionView.h in Headers */,
+				52565719316CADB05B7C8FA79964519A /* FSCalendarCollectionViewLayout.h in Headers */,
+				6CF04FDA8240D858280268329C2674E9 /* FSCalendarConstants.h in Headers */,
+				1ED6A018A50C929244C03FC6A46670F8 /* FSCalendarDelegationFactory.h in Headers */,
+				0C880D762097C192F231E5560AF4EE29 /* FSCalendarDelegationProxy.h in Headers */,
+				919B72E0CE7743838A947288D10AAEA3 /* FSCalendarDynamicHeader.h in Headers */,
+				0E4A225B2E9192B1B7C8DFB85B4303AF /* FSCalendarExtensions.h in Headers */,
+				BADEDF3F5C6B8ECA687B3061C65C7E5D /* FSCalendarHeaderView.h in Headers */,
+				C3C830DA8E913ECBCF786ECB939918B2 /* FSCalendarSeparatorDecorationView.h in Headers */,
+				0673F3481EF6165F70E8F0990278BDC7 /* FSCalendarStickyHeader.h in Headers */,
+				4B11C48CCA7FD866A774B0E49FB595DA /* FSCalendarTransitionCoordinator.h in Headers */,
+				91A96B98AD78AAD881AB6389B1368405 /* FSCalendarWeekdayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B322FEDA9FF4BA8B0BEC872F3EE3F648 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D60235277EEB2A0A45939E8F09A7D71 /* Cosmos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F797236E9943400DC9B18DA5F8395299 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1626C63DC98ECE49ADCE50F5C7F74BF /* AbstractActionSheetPicker.h in Headers */,
+				FC959A2B60814107144EA59FE92D3748 /* ActionSheetCustomPicker.h in Headers */,
+				4BB9C836A68DC72EAADB50AC55C99D42 /* ActionSheetCustomPickerDelegate.h in Headers */,
+				51204A385DF5C502BAA27ECE86719C7D /* ActionSheetDatePicker.h in Headers */,
+				41D299C22C18A78D39EB788D3311974A /* ActionSheetDistancePicker.h in Headers */,
+				A10C64E4402E96AA72E98D92FC06B334 /* ActionSheetLocalePicker.h in Headers */,
+				A233FC9783903408A8F2A620895DB36D /* ActionSheetMultipleStringPicker.h in Headers */,
+				59789CE08DF6F1682B65A0DB845F18BE /* ActionSheetPicker-3.0-umbrella.h in Headers */,
+				14F561BF016628D16C6D89E8CE83E4C8 /* ActionSheetPicker.h in Headers */,
+				58CF9A606A3CE3F0CC0CA8A42C4C77E6 /* ActionSheetStringPicker.h in Headers */,
+				8C0467D6F35F276E1A62D7C28BD95E46 /* DistancePickerView.h in Headers */,
+				C95D091FC52554ECE223F92C4A5BCBF6 /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4761D1E5276039F76D9BA8BF0272D7 /* Build configuration list for PBXNativeTarget "Cosmos" */;
+			buildPhases = (
+				B322FEDA9FF4BA8B0BEC872F3EE3F648 /* Headers */,
+				53D2AD99A3C2BFB2E1448B62E35F78AB /* Sources */,
+				FE1AF85FC1246D05E670ED0CE453B016 /* Frameworks */,
+				6571FF59854C9ED976246EA41FEA37C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = 05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1747C1FC0D7AED6F717CE32ACF418CF5 /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				A61A031D87FA293F87D12AFEEAD385CC /* Headers */,
+				7CA9E2A18C014A20CD8A14FD9AFD84EB /* Sources */,
+				B93B0F6F7A24587A13A4DC4628DF35C0 /* Frameworks */,
+				F55CA98E8C93B232101DADF83D8625F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		14A5FF5028DD371AD924F186F583FAED /* CVCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1976519710BF0C1DDDDB171AE08627 /* Build configuration list for PBXNativeTarget "CVCalendar" */;
+			buildPhases = (
+				484BBCC71DBF70F31FA34A299BC68E11 /* Headers */,
+				8C0D89052B37303195286139CC33CFF5 /* Sources */,
+				A07E6885079A625938CA00D5FFE05A5F /* Frameworks */,
+				33D1F5B5AFE25F415B645032E26155FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVCalendar;
+			productName = CVCalendar;
+			productReference = DF4A369C939BF8C1A16051FC71FFDFC8 /* CVCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		508B6AAEF650BE601D6B0D18E7FA1D59 /* AMColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F74743DD17BD8112A2AFBBB8C714F8 /* Build configuration list for PBXNativeTarget "AMColorPicker" */;
+			buildPhases = (
+				3EB719E426A977C1161DD1AA9E2B1C7D /* Headers */,
+				98D1C3E517243A24CEBF16D7DAF5C8B2 /* Sources */,
+				32EC0C7E523CA338CA9DDEC83E50A557 /* Frameworks */,
+				D6143A8984FAAF26A65C4C60E9F722AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMColorPicker;
+			productName = AMColorPicker;
+			productReference = 74E920B452C5D54B25B1D78B516F3C7E /* AMColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5613920CCE37DC547CDFDCE90C5A8611 /* Pods-Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B91783AD62E467DBEDB4FF988E0F44 /* Build configuration list for PBXNativeTarget "Pods-Planner" */;
+			buildPhases = (
+				2A129A6C1E23626D87C7F5810562798B /* Headers */,
+				2A687A5D39DD5850DE7917FC091EB22B /* Sources */,
+				EB35400428F84DDC27039ED7530C842F /* Frameworks */,
+				3CF8432AC2A973871B8F4A31D9F7381A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBFF12C89705A1F8B7B31ED1CB7D8AC8 /* PBXTargetDependency */,
+				90F5E4EA09622A843FB0F676FE8F33FF /* PBXTargetDependency */,
+				E0C6FD26642F31C2A04782BC086EA57B /* PBXTargetDependency */,
+				A05FC7D537FF4BDC5EAFD203AC9C12D8 /* PBXTargetDependency */,
+				B8A9E6AA1F8ACA438E99314B2C324B59 /* PBXTargetDependency */,
+				26A9EB7C2B52A4B17D89653E462B4024 /* PBXTargetDependency */,
+				6794E4FF9776E4A05421C9D09322C0A5 /* PBXTargetDependency */,
+				981FA9E0131292BF5ADCCAF184568EE7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Planner";
+			productName = "Pods-Planner";
+			productReference = 9D59F30AF85A6A3564BF2E83DF519416 /* Pods_Planner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9852433A2C25BF4D62F4C0A95A677104 /* CULColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA404479C81B255DF7CCFD14D9A693AE /* Build configuration list for PBXNativeTarget "CULColorPicker" */;
+			buildPhases = (
+				9771783054A6B885213A9558CAFE4D90 /* Headers */,
+				76E8A477A91E2FE6DF91B071A11DC12B /* Sources */,
+				77D27353645F0E11CF3A1C8A1CC9F25D /* Frameworks */,
+				4D4EC1EF458D81A16BE57A60D0799809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CULColorPicker;
+			productName = CULColorPicker;
+			productReference = CC4B63E92DDD2DF1237BED5251B1617C /* CULColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543AFABDB667AF073C3569847B1008C0 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */;
+			buildPhases = (
+				F797236E9943400DC9B18DA5F8395299 /* Headers */,
+				77D271DFD4264F58AC8B3DA2985D4C12 /* Sources */,
+				5CB46C5BAA16D47CA55D00459B31D084 /* Frameworks */,
+				0B560EB734A24D3FFC20F9A9D2AC0465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActionSheetPicker-3.0";
+			productName = "ActionSheetPicker-3.0";
+			productReference = D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C401847A53B4C2810311A8CBD715AD /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				541A0721D8D26374CF7CF04B1473A45A /* Headers */,
+				32133C6B0EACD421CB9EB1ABFCE89B97 /* Sources */,
+				6102CF7EA55F5A7D669F88BF0D1A701F /* Frameworks */,
+				8812DCC289D1E7BE07818E350A3B8656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBED57D13F9A2559E14BCD92E7CFF597 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				2BB5683F7D1AA8FB2F94DA252A664DB8 /* Headers */,
+				FAFA782452D3B598A37FB459CD314120 /* Sources */,
+				9727840973A9C2692E58F7089A7C243E /* Frameworks */,
+				D0143B72ED2669C4E98A5B8BBCE72151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DC438FFB080EE5F640DD969A27A9D8FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */,
+				508B6AAEF650BE601D6B0D18E7FA1D59 /* AMColorPicker */,
+				00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */,
+				9852433A2C25BF4D62F4C0A95A677104 /* CULColorPicker */,
+				14A5FF5028DD371AD924F186F583FAED /* CVCalendar */,
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */,
+				5613920CCE37DC547CDFDCE90C5A8611 /* Pods-Planner */,
+				B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B560EB734A24D3FFC20F9A9D2AC0465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D1F5B5AFE25F415B645032E26155FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF8432AC2A973871B8F4A31D9F7381A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4EC1EF458D81A16BE57A60D0799809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6571FF59854C9ED976246EA41FEA37C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812DCC289D1E7BE07818E350A3B8656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0143B72ED2669C4E98A5B8BBCE72151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6143A8984FAAF26A65C4C60E9F722AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC528D67C6AD1CB8EA704605FD876132 /* AMColorPickerAssets.xcassets in Resources */,
+				85D9C313DB134095A59156BB7B10A38F /* AMColorPickerRGBSliderView.xib in Resources */,
+				E8CE31EA9F9CA6D823325B704DED1677 /* AMColorPickerTableView.xib in Resources */,
+				6DC43B6FC3B5FDF0D72D6162C3E75805 /* AMColorPickerTableViewCell.xib in Resources */,
+				13EC04A37A3195D0A8146D397CF97BA5 /* AMColorPickerViewController.xib in Resources */,
+				128506D8BD225B90D13B981EA6DF3ABA /* AMColorPickerWheelView.xib in Resources */,
+				51F48BFF707DF7154B16E2907ACA3870 /* AMCP_color_wheel@2x.png in Resources */,
+				4B12C426BF53064A3880EDBACC0A7B8A /* AMCP_cursor@2x.png in Resources */,
+				A57ADBCB229B6F41CA4E9EE13CC43EFF /* AMCP_slider_thumb@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55CA98E8C93B232101DADF83D8625F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A687A5D39DD5850DE7917FC091EB22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E575E940E0832EDF4DFC75018D480011 /* Pods-Planner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32133C6B0EACD421CB9EB1ABFCE89B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B326644BB08AEDF697A82A0F1A66D68 /* Toast-Swift-dummy.m in Sources */,
+				4753716AE7A1AB22FB6BA61AA74D942F /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2AD99A3C2BFB2E1448B62E35F78AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B594E04185C4C7522C612C631B8AD97A /* Cosmos-dummy.m in Sources */,
+				049FC8D781A7ECAED15F25718502D54E /* CosmosAccessibility.swift in Sources */,
+				E776F53E707AD1ACF7223305E9EEDBFC /* CosmosDefaultSettings.swift in Sources */,
+				E189E12EEDDD9A1484602416282A19F9 /* CosmosLayerHelper.swift in Sources */,
+				2FADA7115AEFDCC59593DD4201572539 /* CosmosLayers.swift in Sources */,
+				C0D5F472F17B5A0F9824C362F35A7132 /* CosmosLocalizedRating.swift in Sources */,
+				10A44B18B300E2B0BF5BF88F6F2E585F /* CosmosRating.swift in Sources */,
+				E0FD27E2F7F5C05D3390126C7DF35EA6 /* CosmosSettings.swift in Sources */,
+				4404A9C8152865C62A5B59B88640811C /* CosmosSize.swift in Sources */,
+				AC7DAE5B261F8CDE268794A1B7B06F56 /* CosmosText.swift in Sources */,
+				05DFD786F217BD0DFBFB5F57D80236A5 /* CosmosTouch.swift in Sources */,
+				5C7B76FBAD8574062F60041B012FE052 /* CosmosTouchTarget.swift in Sources */,
+				41E5B21F4758B2411A95A7C72523536D /* CosmosView.swift in Sources */,
+				61857850A19756A357AD6696D42E69A4 /* RightToLeft.swift in Sources */,
+				E9A920FE6E5FC6F5F58B6F3AA9B3FDAF /* StarFillMode.swift in Sources */,
+				4221AB8F56B1444AE176F2B13F81C557 /* StarLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E8A477A91E2FE6DF91B071A11DC12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF74D53E0BF81370C729C12F7A626E54 /* ColorPickerView.swift in Sources */,
+				5DF0AC0D22BCD5B71E2A4EC277DD0395 /* ColorPickerViewDelegate.swift in Sources */,
+				023F7C68E8063B24335CF96592EB1881 /* ColorSpaceConverter.swift in Sources */,
+				9F11A99DF69D4F15206CEAE387F946B0 /* CULColorPicker-dummy.m in Sources */,
+				FFC6CA9E2C9B9EC40CB464302B8E2B68 /* HSB.swift in Sources */,
+				B680FA67194DFA61C9AE3F66C96209FA /* RGB.swift in Sources */,
+				4B14E870411CA2C49350C10BE3750FE3 /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D271DFD4264F58AC8B3DA2985D4C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7360CEDAB021006D16225352EFE233C3 /* AbstractActionSheetPicker.m in Sources */,
+				01E6FF9EF68F8F4DF9893A66DFD0FF00 /* ActionSheetCustomPicker.m in Sources */,
+				294871A7129CE743BB3A1A37A5909905 /* ActionSheetDatePicker.m in Sources */,
+				801C634F0F633E92BDDD77AEDC52E5AA /* ActionSheetDistancePicker.m in Sources */,
+				BD7FB260F9823A15C481A5B35C1636CC /* ActionSheetLocalePicker.m in Sources */,
+				01ED7401731A6D64E2EBDB0C9BA10D78 /* ActionSheetMultipleStringPicker.m in Sources */,
+				C31A1EC6B8C14C595A14E46A9C8A34DB /* ActionSheetPicker-3.0-dummy.m in Sources */,
+				2A4972C7ADE3DFAAE219A09318FC3F14 /* ActionSheetStringPicker.m in Sources */,
+				522FB484F79064A183754528ED787059 /* DistancePickerView.m in Sources */,
+				90B6F89879F8B4241403D3ED15BE2C46 /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA9E2A18C014A20CD8A14FD9AFD84EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2126BAE2A3A69461E8B00562CFF6D67C /* FSCalendar-dummy.m in Sources */,
+				7EAEA451E04E5E96AFE6D1B63313F624 /* FSCalendar.m in Sources */,
+				8633C154CEC62F5ECAE687CC7ED8067E /* FSCalendarAppearance.m in Sources */,
+				FDB26845AA353936661B049BA64ABD25 /* FSCalendarCalculator.m in Sources */,
+				4C79C31591A80E7209E52F0928F7546C /* FSCalendarCell.m in Sources */,
+				E56AE3ED48D8E87D1CD9718291E0B5E5 /* FSCalendarCollectionView.m in Sources */,
+				487467099AB8229395A1A005DC6AD4F4 /* FSCalendarCollectionViewLayout.m in Sources */,
+				2E5EC07CFD18A132E57569D00117C703 /* FSCalendarConstants.m in Sources */,
+				083B18F49C35728E9A7B828E73DF2EB8 /* FSCalendarDelegationFactory.m in Sources */,
+				48DC50A48CEC3AEC56CB6C3144EF4D47 /* FSCalendarDelegationProxy.m in Sources */,
+				1BDE0FED974714A835CB89AD1062FF0D /* FSCalendarExtensions.m in Sources */,
+				FFF8E80B6D3629DB84D475C728EFCA1D /* FSCalendarHeaderView.m in Sources */,
+				0F2DEB38F550FF5F643CD48BE324B009 /* FSCalendarSeparatorDecorationView.m in Sources */,
+				1E0C257A13260508F9FC03D637764614 /* FSCalendarStickyHeader.m in Sources */,
+				D192D52340F6B27DA840BE2FA9F49EE9 /* FSCalendarTransitionCoordinator.m in Sources */,
+				3F0F6CEFD0801BEA64D1A265AE92FC05 /* FSCalendarWeekdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0D89052B37303195286139CC33CFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49C8DB9807D857C04E0CF8C13D8062F /* CVAuxiliaryView.swift in Sources */,
+				DC9E3DF880B0EE01466D79ED6B2B6E1A /* CVCalendar-dummy.m in Sources */,
+				0865535E238AB0709024C1CD34746F14 /* CVCalendarContentPresentationCoordinator.swift in Sources */,
+				DC0FB2C7C35A218B4FCBE2C5404838FD /* CVCalendarContentViewController.swift in Sources */,
+				70D01975DE6F28A5EC3759FDC1F29AE3 /* CVCalendarDayView.swift in Sources */,
+				0E8D8F7FA637B6B29B4B727A99B2D688 /* CVCalendarDayViewControlCoordinator.swift in Sources */,
+				40A1E3418709AF59AD2684D8F03C15DF /* CVCalendarManager.swift in Sources */,
+				7DE1AEEB56E04E47A9A9542FF04ABFDD /* CVCalendarMenuView.swift in Sources */,
+				90C07879888E0609990E6701D833FDDA /* CVCalendarMenuViewDelegate.swift in Sources */,
+				A908782D9DE35906887CA42AF1D77730 /* CVCalendarMonthContentViewController.swift in Sources */,
+				EA57614D8C84F2E3DBF1E35F86E1B96B /* CVCalendarMonthView.swift in Sources */,
+				F24B093D6266C826678AA69F6C7E8C42 /* CVCalendarTouchController.swift in Sources */,
+				399DAE9A92DED67B334DB2F4B707EE79 /* CVCalendarView.swift in Sources */,
+				D178A786C33FF5B9714ABC308C992649 /* CVCalendarViewAnimator.swift in Sources */,
+				B2D447D4220C41789F1F2DBC4CBE875C /* CVCalendarViewAnimatorDelegate.swift in Sources */,
+				DBDA1EAA8BD34C9166C63977D8E5B6FF /* CVCalendarViewAppearance.swift in Sources */,
+				698D8341E7C25BC68AC1BE08B03DFF75 /* CVCalendarViewAppearanceDelegate.swift in Sources */,
+				BF1612518CC04ABAA2449DFEEBDBABFF /* CVCalendarViewDelegate.swift in Sources */,
+				C82C87A6CC8DDC4AC2B4BE7E578181BC /* CVCalendarViewPresentationMode.swift in Sources */,
+				AC66029C0E8188306DB706D505364DC8 /* CVCalendarWeekContentViewController.swift in Sources */,
+				18D2DFB0D75B0E57812C7D23552AAC2E /* CVCalendarWeekday.swift in Sources */,
+				18DD6E6EBA3006008B6C56D9D2DA9535 /* CVCalendarWeekView.swift in Sources */,
+				072519D50595FDD74F513980C8E978E0 /* CVDate.swift in Sources */,
+				178432149A7F61ABFB3E65ED0AB760FA /* CVPresent.swift in Sources */,
+				73954AE62EC5D77B4DBD21146FD6AB97 /* CVRange.swift in Sources */,
+				68FBDD3024807051F67E95C8816E4528 /* CVScrollDirection.swift in Sources */,
+				99D8FA1A46EBECCF5CA9A13DD50A8704 /* CVSelectionType.swift in Sources */,
+				CBF7DBC36A00CABB6819C9B290E5AAAF /* CVSet.swift in Sources */,
+				75EBE39154FA38B6FF90FA23A132EEC7 /* CVShape.swift in Sources */,
+				424CA999527031B0FF836C320AA1FDAA /* CVStatus.swift in Sources */,
+				9F2E507B0B3B9B2F6202114387F60ABF /* CVWeekdaySymbolType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D1C3E517243A24CEBF16D7DAF5C8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EB131EC062D11D014B86C4A75FFC39 /* AMColorPicker-dummy.m in Sources */,
+				E2EA729DDCB79B80D6B98A691D7D64B2 /* AMColorPickerProtocol.swift in Sources */,
+				7BC369523CF18358BD597372CDBD8760 /* AMColorPickerRGBSliderView.swift in Sources */,
+				F73469DCD67695A6102650720D580542 /* AMColorPickerSlider.swift in Sources */,
+				3140D0FED860B8395E30F04E6E787E61 /* AMColorPickerTableView.swift in Sources */,
+				AAD681D4C2C3F9C553E67C299E8A972A /* AMColorPickerTableViewCell.swift in Sources */,
+				97C8E7EF0EC310807B6A02E375468B9D /* AMColorPickerViewController.swift in Sources */,
+				356D1AE507089A89F01D3834FA9F46CB /* AMColorPickerWheelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA782452D3B598A37FB459CD314120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */,
+				BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */,
+				4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */,
+				6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */,
+				95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */,
+				842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */,
+				361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26A9EB7C2B52A4B17D89653E462B4024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 24826D6213244AF239A2BD767081E2F1 /* PBXContainerItemProxy */;
+		};
+		6794E4FF9776E4A05421C9D09322C0A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = 13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */;
+			targetProxy = A6D25B26E7B769FE03983BCB56EE0BCB /* PBXContainerItemProxy */;
+		};
+		90F5E4EA09622A843FB0F676FE8F33FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */;
+			targetProxy = E28C68E54D2AE06ECBC030AB60D375DC /* PBXContainerItemProxy */;
+		};
+		981FA9E0131292BF5ADCCAF184568EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */;
+			targetProxy = F5022766C07956767DD0B540EE028B2F /* PBXContainerItemProxy */;
+		};
+		A05FC7D537FF4BDC5EAFD203AC9C12D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CVCalendar;
+			target = 14A5FF5028DD371AD924F186F583FAED /* CVCalendar */;
+			targetProxy = CB69D19937248D1DE275659916006093 /* PBXContainerItemProxy */;
+		};
+		B8A9E6AA1F8ACA438E99314B2C324B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
+			targetProxy = 068A795E6E73A5E66C646F8150A751FC /* PBXContainerItemProxy */;
+		};
+		E0C6FD26642F31C2A04782BC086EA57B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CULColorPicker;
+			target = 9852433A2C25BF4D62F4C0A95A677104 /* CULColorPicker */;
+			targetProxy = 078A94B717A316F7324B2E85EAB4A955 /* PBXContainerItemProxy */;
+		};
+		EBFF12C89705A1F8B7B31ED1CB7D8AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMColorPicker;
+			target = 508B6AAEF650BE601D6B0D18E7FA1D59 /* AMColorPicker */;
+			targetProxy = 1C30BA28ECF81A3A5F4BC31AEAFBD2E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E76E2FE0A9366114F81640AA5875EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFEC766489DCA06CD4390FC1E0992D93 /* Toast-Swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2304ACA956F066A794351CD41EDABC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B0762B9683D11FADDBED01DFB87B6F /* AMColorPicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMColorPicker/AMColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMColorPicker/AMColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMColorPicker/AMColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = AMColorPicker;
+				PRODUCT_NAME = AMColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28D62BC230223380B0719F3855BDA8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4C12158D0FB00B3A98916360379ADF /* CVCalendar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CVCalendar/CVCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVCalendar/CVCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CVCalendar/CVCalendar.modulemap";
+				PRODUCT_MODULE_NAME = CVCalendar;
+				PRODUCT_NAME = CVCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BBEB348C0434ACF88CD8D994092ED1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B51AC8E611DE2C7A646C7CA5280A329 /* CVCalendar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CVCalendar/CVCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVCalendar/CVCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CVCalendar/CVCalendar.modulemap";
+				PRODUCT_MODULE_NAME = CVCalendar;
+				PRODUCT_NAME = CVCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A17D27FFBCE427192C281661D3F5767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5807BEA63636B0BAD1D0AC540785BF5B /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B28DAA7DDFFF9A20AD710664AC96ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179AF4F8D585FF95C044433B01B2293F /* DropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D92B77E78DC81B40AE4DC7C571D5743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C95A82495A270B5266B0C6B6EC25CF1 /* Cosmos.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BFCFB527EDF553C841F5075E065B7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10248F734C25F3E60B06C3814DA2004E /* Cosmos.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DF3E67C3FC3C4C34DB01575DD27892F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBD1C34A2313450C60226BB5C037E9A /* AMColorPicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMColorPicker/AMColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMColorPicker/AMColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMColorPicker/AMColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = AMColorPicker;
+				PRODUCT_NAME = AMColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A617F80297D891873BA412A7862CFAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66689BCB8BB8DEB28DEB5541A84BF1FE /* Pods-Planner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Planner/Pods-Planner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Planner/Pods-Planner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B538BBD8D6CBDC662EBB5610D265E28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A85B3587DDC31E1EF10BF0B99BA9B10B /* ActionSheetPicker-3.0.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_MODULE_NAME = ActionSheetPicker_3_0;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C45C3BCFBE52001933354F3226274F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD7D2BE0BA773933E4CC4ABE1A5DCD5 /* ActionSheetPicker-3.0.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_MODULE_NAME = ActionSheetPicker_3_0;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C646B80E4D8A9B6FB6B471288AD9746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFDF6FCEEB0C273123B93488DCA1BD1 /* Toast-Swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9D8A777643BBEC6139AA8A963349D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646F01009F021531FD43E724DA301FF7 /* FSCalendar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9FE9FE12E4D706F3987DC0AFBD314FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E646C4D25041E19C44E04F982DC8315 /* FSCalendar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAB9C165459A0781FF330B2AC75B763D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92055062B8B5209878785FD44D97254F /* CULColorPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CULColorPicker/CULColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CULColorPicker/CULColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CULColorPicker/CULColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = CULColorPicker;
+				PRODUCT_NAME = CULColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7AAEC4A898400B1D4359792824134BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8FBE284D88685E5B1966141D16EF91 /* CULColorPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CULColorPicker/CULColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CULColorPicker/CULColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CULColorPicker/CULColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = CULColorPicker;
+				PRODUCT_NAME = CULColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E997A9B4E6092746636CD6E9BAFB11E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10040316E9D377AACD131F51A499D950 /* Pods-Planner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Planner/Pods-Planner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Planner/Pods-Planner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1747C1FC0D7AED6F717CE32ACF418CF5 /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D8A777643BBEC6139AA8A963349D4C /* Debug */,
+				C9FE9FE12E4D706F3987DC0AFBD314FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F74743DD17BD8112A2AFBBB8C714F8 /* Build configuration list for PBXNativeTarget "AMColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF3E67C3FC3C4C34DB01575DD27892F /* Debug */,
+				2304ACA956F066A794351CD41EDABC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543AFABDB667AF073C3569847B1008C0 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B538BBD8D6CBDC662EBB5610D265E28B /* Debug */,
+				C45C3BCFBE52001933354F3226274F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B91783AD62E467DBEDB4FF988E0F44 /* Build configuration list for PBXNativeTarget "Pods-Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E997A9B4E6092746636CD6E9BAFB11E9 /* Debug */,
+				A617F80297D891873BA412A7862CFAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4761D1E5276039F76D9BA8BF0272D7 /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D92B77E78DC81B40AE4DC7C571D5743 /* Debug */,
+				9BFCFB527EDF553C841F5075E065B7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8C401847A53B4C2810311A8CBD715AD /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C646B80E4D8A9B6FB6B471288AD9746F /* Debug */,
+				03E76E2FE0A9366114F81640AA5875EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA404479C81B255DF7CCFD14D9A693AE /* Build configuration list for PBXNativeTarget "CULColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB9C165459A0781FF330B2AC75B763D /* Debug */,
+				E7AAEC4A898400B1D4359792824134BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1976519710BF0C1DDDDB171AE08627 /* Build configuration list for PBXNativeTarget "CVCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D62BC230223380B0719F3855BDA8A7 /* Debug */,
+				3BBEB348C0434ACF88CD8D994092ED1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBED57D13F9A2559E14BCD92E7CFF597 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A17D27FFBCE427192C281661D3F5767 /* Debug */,
+				8B28DAA7DDFFF9A20AD710664AC96ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18298C212775EA08001C330E /* WeeklyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18298C202775EA08001C330E /* WeeklyVC.swift */; };
+		18298C24277605B7001C330E /* WeeklyTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18298C23277605B7001C330E /* WeeklyTaskVC.swift */; };
+		18640AAD2782B45700363C7E /* WeeklyHabitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18640AAC2782B45700363C7E /* WeeklyHabitVC.swift */; };
+		18640AB12782C47200363C7E /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 18640AAF2782C47100363C7E /* wrong.png */; };
+		18640AB22782C47200363C7E /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 18640AB02782C47100363C7E /* correct.png */; };
+		1896AF852769B41900952055 /* RatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896AF842769B41900952055 /* RatingVC.swift */; };
+		1896AF882769B88900952055 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 1896AF872769B88900952055 /* close.png */; };
+		1896AF8F2769E19600952055 /* plus-planner.png in Resources */ = {isa = PBXBuildFile; fileRef = 1896AF8E2769E19500952055 /* plus-planner.png */; };
+		189D7631277DE07D00BCD1AA /* WeeklyGoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D7630277DE07D00BCD1AA /* WeeklyGoalsVC.swift */; };
+		189D7634277DE48D00BCD1AA /* WeeklyReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D7633277DE48D00BCD1AA /* WeeklyReviewVC.swift */; };
+		189D7638277DEB2700BCD1AA /* TrackerHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D7636277DEB2700BCD1AA /* TrackerHeaderCell.swift */; };
+		189D7639277DEB2700BCD1AA /* TrackerHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189D7637277DEB2700BCD1AA /* TrackerHeaderCell.xib */; };
+		189D763D277DEB3F00BCD1AA /* TrackerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D763B277DEB3F00BCD1AA /* TrackerCell.swift */; };
+		189D763E277DEB3F00BCD1AA /* TrackerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189D763C277DEB3F00BCD1AA /* TrackerCell.xib */; };
+		18A030E3276B32DD009D6682 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A030E1276B32DD009D6682 /* ToDoCell.swift */; };
+		18A030E4276B32DD009D6682 /* ToDoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A030E2276B32DD009D6682 /* ToDoCell.xib */; };
+		18A1DA4327705DD80049CC91 /* MonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1DA4227705DD80049CC91 /* MonthVC.swift */; };
+		18A1DA4C27707B990049CC91 /* DailyCalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1DA4B27707B990049CC91 /* DailyCalVC.swift */; };
+		18AD303427719DEF00E63242 /* alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD303027719DEE00E63242 /* alarm.png */; };
+		18AD303527719DEF00E63242 /* repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD303127719DEE00E63242 /* repeat.png */; };
+		18AD303627719DEF00E63242 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD303227719DEF00E63242 /* map.png */; };
+		18AD303727719DEF00E63242 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD303327719DEF00E63242 /* clock.png */; };
+		18AD303A2771A1ED00E63242 /* map_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD30392771A1ED00E63242 /* map_new.png */; };
+		18AD303F2771AC8C00E63242 /* planner_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD303E2771AC8C00E63242 /* planner_back.png */; };
+		18AD30422771ACD800E63242 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD30412771ACD700E63242 /* calendar.png */; };
+		18AD30452771AD4D00E63242 /* three_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD30442771AD4D00E63242 /* three_dots.png */; };
+		18AD30482771ADD500E63242 /* cale.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD30472771ADD500E63242 /* cale.png */; };
+		18AD30542771AF7E00E63242 /* AddEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD30532771AF7E00E63242 /* AddEventVC.swift */; };
+		18AD30612771EAF500E63242 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD30602771EAF500E63242 /* ColorPicker.swift */; };
+		18AD3073277207FD00E63242 /* DailyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3072277207FD00E63242 /* DailyVC.swift */; };
+		18AD307727720CE900E63242 /* DailyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD307527720CE800E63242 /* DailyCell.swift */; };
+		18AD307827720CE900E63242 /* DailyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AD307627720CE800E63242 /* DailyCell.xib */; };
+		18E32688276863DE00F56AC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E32687276863DE00F56AC3 /* AppDelegate.swift */; };
+		18E3268A276863DE00F56AC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E32689276863DE00F56AC3 /* SceneDelegate.swift */; };
+		18E3268F276863DE00F56AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E3268D276863DE00F56AC3 /* Main.storyboard */; };
+		18E32691276863E200F56AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E32690276863E200F56AC3 /* Assets.xcassets */; };
+		18E32694276863E200F56AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E32692276863E200F56AC3 /* LaunchScreen.storyboard */; };
+		18E3269D27686A0000F56AC3 /* planner-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E3269C27686A0000F56AC3 /* planner-plus.png */; };
+		18E326A127686AA300F56AC3 /* PlanListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E326A027686AA300F56AC3 /* PlanListVC.swift */; };
+		18E326A427686AB500F56AC3 /* CreatePlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E326A327686AB500F56AC3 /* CreatePlanVC.swift */; };
+		18E326A827686B1C00F56AC3 /* CreatePlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E326A727686B1C00F56AC3 /* CreatePlanCell.swift */; };
+		18E326AC2768740D00F56AC3 /* DailyPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E326AB2768740D00F56AC3 /* DailyPlanVC.swift */; };
+		18E326AF276875E600F56AC3 /* planner-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E326AE276875E600F56AC3 /* planner-star.png */; };
+		18E326B32768773300F56AC3 /* DailyHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E326B12768773300F56AC3 /* DailyHeaderCell.swift */; };
+		18E326B42768773300F56AC3 /* DailyHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E326B22768773300F56AC3 /* DailyHeaderCell.xib */; };
+		18E326B827687E0400F56AC3 /* DailyOtherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E326B627687E0400F56AC3 /* DailyOtherCell.swift */; };
+		18E326B927687E0400F56AC3 /* DailyOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E326B727687E0400F56AC3 /* DailyOtherCell.xib */; };
+		18E326C12768902100F56AC3 /* planner-meal.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E326BB2768902000F56AC3 /* planner-meal.png */; };
+		18E326C22768902100F56AC3 /* planner-note.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E326BC2768902100F56AC3 /* planner-note.png */; };
+		18E326C32768902100F56AC3 /* planner-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E326BD2768902100F56AC3 /* planner-thumb.png */; };
+		18E326C42768902100F56AC3 /* planner-excersise.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E326BE2768902100F56AC3 /* planner-excersise.png */; };
+		18E326C52768902100F56AC3 /* planner-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E326BF2768902100F56AC3 /* planner-glass.png */; };
+		18E326C62768902100F56AC3 /* planner-todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E326C02768902100F56AC3 /* planner-todo.png */; };
+		18E326CA2768A06100F56AC3 /* DailyPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E326C82768A06100F56AC3 /* DailyPlanCell.swift */; };
+		18E326CB2768A06100F56AC3 /* DailyPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E326C92768A06100F56AC3 /* DailyPlanCell.xib */; };
+		18E326CF2768A25000F56AC3 /* PriorityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E326CD2768A25000F56AC3 /* PriorityCell.swift */; };
+		18E326D02768A25000F56AC3 /* PriorityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E326CE2768A25000F56AC3 /* PriorityCell.xib */; };
+		18E326D92768D82900F56AC3 /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E326D72768D82900F56AC3 /* ScheduleCell.swift */; };
+		18E326DA2768D82900F56AC3 /* ScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E326D82768D82900F56AC3 /* ScheduleCell.xib */; };
+		18EA5689277497A50045984A /* EditTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA5688277497A50045984A /* EditTaskVC.swift */; };
+		E39D606A6E5A2FAE465EC4B8 /* Pods_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358E681E2CA5B3842E4B023D /* Pods_Planner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18298C202775EA08001C330E /* WeeklyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyVC.swift; sourceTree = "<group>"; };
+		18298C23277605B7001C330E /* WeeklyTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTaskVC.swift; sourceTree = "<group>"; };
+		18640AAC2782B45700363C7E /* WeeklyHabitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyHabitVC.swift; sourceTree = "<group>"; };
+		18640AAF2782C47100363C7E /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
+		18640AB02782C47100363C7E /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		1896AF842769B41900952055 /* RatingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingVC.swift; sourceTree = "<group>"; };
+		1896AF872769B88900952055 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		1896AF8E2769E19500952055 /* plus-planner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-planner.png"; sourceTree = "<group>"; };
+		189D7630277DE07D00BCD1AA /* WeeklyGoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoalsVC.swift; sourceTree = "<group>"; };
+		189D7633277DE48D00BCD1AA /* WeeklyReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyReviewVC.swift; sourceTree = "<group>"; };
+		189D7636277DEB2700BCD1AA /* TrackerHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerHeaderCell.swift; sourceTree = "<group>"; };
+		189D7637277DEB2700BCD1AA /* TrackerHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackerHeaderCell.xib; sourceTree = "<group>"; };
+		189D763B277DEB3F00BCD1AA /* TrackerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerCell.swift; sourceTree = "<group>"; };
+		189D763C277DEB3F00BCD1AA /* TrackerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackerCell.xib; sourceTree = "<group>"; };
+		18A030E1276B32DD009D6682 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		18A030E2276B32DD009D6682 /* ToDoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoCell.xib; sourceTree = "<group>"; };
+		18A1DA4227705DD80049CC91 /* MonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthVC.swift; sourceTree = "<group>"; };
+		18A1DA4B27707B990049CC91 /* DailyCalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCalVC.swift; sourceTree = "<group>"; };
+		18AD303027719DEE00E63242 /* alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarm.png; sourceTree = "<group>"; };
+		18AD303127719DEE00E63242 /* repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeat.png; sourceTree = "<group>"; };
+		18AD303227719DEF00E63242 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		18AD303327719DEF00E63242 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		18AD30392771A1ED00E63242 /* map_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_new.png; sourceTree = "<group>"; };
+		18AD303E2771AC8C00E63242 /* planner_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planner_back.png; sourceTree = "<group>"; };
+		18AD30412771ACD700E63242 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		18AD30442771AD4D00E63242 /* three_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three_dots.png; sourceTree = "<group>"; };
+		18AD30472771ADD500E63242 /* cale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cale.png; sourceTree = "<group>"; };
+		18AD30532771AF7E00E63242 /* AddEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventVC.swift; sourceTree = "<group>"; };
+		18AD30602771EAF500E63242 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		18AD3072277207FD00E63242 /* DailyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVC.swift; sourceTree = "<group>"; };
+		18AD307527720CE800E63242 /* DailyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCell.swift; sourceTree = "<group>"; };
+		18AD307627720CE800E63242 /* DailyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyCell.xib; sourceTree = "<group>"; };
+		18E32684276863DE00F56AC3 /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E32687276863DE00F56AC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E32689276863DE00F56AC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18E3268E276863DE00F56AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E32690276863E200F56AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E32693276863E200F56AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E32695276863E200F56AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3269C27686A0000F56AC3 /* planner-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planner-plus.png"; sourceTree = "<group>"; };
+		18E326A027686AA300F56AC3 /* PlanListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListVC.swift; sourceTree = "<group>"; };
+		18E326A327686AB500F56AC3 /* CreatePlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlanVC.swift; sourceTree = "<group>"; };
+		18E326A727686B1C00F56AC3 /* CreatePlanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlanCell.swift; sourceTree = "<group>"; };
+		18E326AB2768740D00F56AC3 /* DailyPlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlanVC.swift; sourceTree = "<group>"; };
+		18E326AE276875E600F56AC3 /* planner-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planner-star.png"; sourceTree = "<group>"; };
+		18E326B12768773300F56AC3 /* DailyHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHeaderCell.swift; sourceTree = "<group>"; };
+		18E326B22768773300F56AC3 /* DailyHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyHeaderCell.xib; sourceTree = "<group>"; };
+		18E326B627687E0400F56AC3 /* DailyOtherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyOtherCell.swift; sourceTree = "<group>"; };
+		18E326B727687E0400F56AC3 /* DailyOtherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyOtherCell.xib; sourceTree = "<group>"; };
+		18E326BB2768902000F56AC3 /* planner-meal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planner-meal.png"; sourceTree = "<group>"; };
+		18E326BC2768902100F56AC3 /* planner-note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planner-note.png"; sourceTree = "<group>"; };
+		18E326BD2768902100F56AC3 /* planner-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planner-thumb.png"; sourceTree = "<group>"; };
+		18E326BE2768902100F56AC3 /* planner-excersise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planner-excersise.png"; sourceTree = "<group>"; };
+		18E326BF2768902100F56AC3 /* planner-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planner-glass.png"; sourceTree = "<group>"; };
+		18E326C02768902100F56AC3 /* planner-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planner-todo.png"; sourceTree = "<group>"; };
+		18E326C82768A06100F56AC3 /* DailyPlanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlanCell.swift; sourceTree = "<group>"; };
+		18E326C92768A06100F56AC3 /* DailyPlanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyPlanCell.xib; sourceTree = "<group>"; };
+		18E326CD2768A25000F56AC3 /* PriorityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityCell.swift; sourceTree = "<group>"; };
+		18E326CE2768A25000F56AC3 /* PriorityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriorityCell.xib; sourceTree = "<group>"; };
+		18E326D72768D82900F56AC3 /* ScheduleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
+		18E326D82768D82900F56AC3 /* ScheduleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleCell.xib; sourceTree = "<group>"; };
+		18EA5688277497A50045984A /* EditTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskVC.swift; sourceTree = "<group>"; };
+		340523E5FF1ECAC607060D37 /* Pods-Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planner.release.xcconfig"; path = "Target Support Files/Pods-Planner/Pods-Planner.release.xcconfig"; sourceTree = "<group>"; };
+		358E681E2CA5B3842E4B023D /* Pods_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D27640C4A1CFB8682FEB93 /* Pods-Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planner.debug.xcconfig"; path = "Target Support Files/Pods-Planner/Pods-Planner.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E32681276863DE00F56AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39D606A6E5A2FAE465EC4B8 /* Pods_Planner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E3267B276863DE00F56AC3 = {
+			isa = PBXGroup;
+			children = (
+				18E32686276863DE00F56AC3 /* Planner */,
+				18E32685276863DE00F56AC3 /* Products */,
+				53DFD07518F01831139F61E4 /* Pods */,
+				D9793E2D68D4DDAD188C84DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18E32685276863DE00F56AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E32684276863DE00F56AC3 /* Planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E32686276863DE00F56AC3 /* Planner */ = {
+			isa = PBXGroup;
+			children = (
+				18E326A627686B0000F56AC3 /* Views */,
+				18E32687276863DE00F56AC3 /* AppDelegate.swift */,
+				18E32689276863DE00F56AC3 /* SceneDelegate.swift */,
+				18E326A027686AA300F56AC3 /* PlanListVC.swift */,
+				18E326A327686AB500F56AC3 /* CreatePlanVC.swift */,
+				18E326AB2768740D00F56AC3 /* DailyPlanVC.swift */,
+				1896AF842769B41900952055 /* RatingVC.swift */,
+				18A1DA4227705DD80049CC91 /* MonthVC.swift */,
+				18A1DA4B27707B990049CC91 /* DailyCalVC.swift */,
+				18AD30532771AF7E00E63242 /* AddEventVC.swift */,
+				18AD30602771EAF500E63242 /* ColorPicker.swift */,
+				18AD3072277207FD00E63242 /* DailyVC.swift */,
+				18EA5688277497A50045984A /* EditTaskVC.swift */,
+				18298C202775EA08001C330E /* WeeklyVC.swift */,
+				18298C23277605B7001C330E /* WeeklyTaskVC.swift */,
+				189D7630277DE07D00BCD1AA /* WeeklyGoalsVC.swift */,
+				189D7633277DE48D00BCD1AA /* WeeklyReviewVC.swift */,
+				18640AAC2782B45700363C7E /* WeeklyHabitVC.swift */,
+				18E3268D276863DE00F56AC3 /* Main.storyboard */,
+				18E32690276863E200F56AC3 /* Assets.xcassets */,
+				18E32692276863E200F56AC3 /* LaunchScreen.storyboard */,
+				18AD303027719DEE00E63242 /* alarm.png */,
+				18AD303327719DEF00E63242 /* clock.png */,
+				18AD303227719DEF00E63242 /* map.png */,
+				18AD303127719DEE00E63242 /* repeat.png */,
+				1896AF872769B88900952055 /* close.png */,
+				18E3269C27686A0000F56AC3 /* planner-plus.png */,
+				18640AB02782C47100363C7E /* correct.png */,
+				18640AAF2782C47100363C7E /* wrong.png */,
+				18AD30472771ADD500E63242 /* cale.png */,
+				18E326AE276875E600F56AC3 /* planner-star.png */,
+				18E326BE2768902100F56AC3 /* planner-excersise.png */,
+				18AD30442771AD4D00E63242 /* three_dots.png */,
+				18E326BF2768902100F56AC3 /* planner-glass.png */,
+				18E326BB2768902000F56AC3 /* planner-meal.png */,
+				18E326BC2768902100F56AC3 /* planner-note.png */,
+				18AD303E2771AC8C00E63242 /* planner_back.png */,
+				18E326BD2768902100F56AC3 /* planner-thumb.png */,
+				18E326C02768902100F56AC3 /* planner-todo.png */,
+				1896AF8E2769E19500952055 /* plus-planner.png */,
+				18AD30412771ACD700E63242 /* calendar.png */,
+				18AD30392771A1ED00E63242 /* map_new.png */,
+				18E32695276863E200F56AC3 /* Info.plist */,
+			);
+			path = Planner;
+			sourceTree = "<group>";
+		};
+		18E326A627686B0000F56AC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18E326A727686B1C00F56AC3 /* CreatePlanCell.swift */,
+				18E326B12768773300F56AC3 /* DailyHeaderCell.swift */,
+				18E326B22768773300F56AC3 /* DailyHeaderCell.xib */,
+				18E326B627687E0400F56AC3 /* DailyOtherCell.swift */,
+				18E326B727687E0400F56AC3 /* DailyOtherCell.xib */,
+				18E326C82768A06100F56AC3 /* DailyPlanCell.swift */,
+				18E326C92768A06100F56AC3 /* DailyPlanCell.xib */,
+				18E326CD2768A25000F56AC3 /* PriorityCell.swift */,
+				18E326CE2768A25000F56AC3 /* PriorityCell.xib */,
+				18E326D72768D82900F56AC3 /* ScheduleCell.swift */,
+				18E326D82768D82900F56AC3 /* ScheduleCell.xib */,
+				18A030E1276B32DD009D6682 /* ToDoCell.swift */,
+				18A030E2276B32DD009D6682 /* ToDoCell.xib */,
+				18AD307527720CE800E63242 /* DailyCell.swift */,
+				18AD307627720CE800E63242 /* DailyCell.xib */,
+				189D7636277DEB2700BCD1AA /* TrackerHeaderCell.swift */,
+				189D7637277DEB2700BCD1AA /* TrackerHeaderCell.xib */,
+				189D763B277DEB3F00BCD1AA /* TrackerCell.swift */,
+				189D763C277DEB3F00BCD1AA /* TrackerCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53DFD07518F01831139F61E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0D27640C4A1CFB8682FEB93 /* Pods-Planner.debug.xcconfig */,
+				340523E5FF1ECAC607060D37 /* Pods-Planner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9793E2D68D4DDAD188C84DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				358E681E2CA5B3842E4B023D /* Pods_Planner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E32683276863DE00F56AC3 /* Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E32698276863E200F56AC3 /* Build configuration list for PBXNativeTarget "Planner" */;
+			buildPhases = (
+				8D07C24BDA6978F3D224E86B /* [CP] Check Pods Manifest.lock */,
+				18E32680276863DE00F56AC3 /* Sources */,
+				18E32681276863DE00F56AC3 /* Frameworks */,
+				18E32682276863DE00F56AC3 /* Resources */,
+				1033F07412702CA42A9DA0BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planner;
+			productName = Planner;
+			productReference = 18E32684276863DE00F56AC3 /* Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E3267C276863DE00F56AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					18E32683276863DE00F56AC3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 18E3267F276863DE00F56AC3 /* Build configuration list for PBXProject "Planner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E3267B276863DE00F56AC3;
+			productRefGroup = 18E32685276863DE00F56AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E32683276863DE00F56AC3 /* Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E32682276863DE00F56AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E326B42768773300F56AC3 /* DailyHeaderCell.xib in Resources */,
+				18E3269D27686A0000F56AC3 /* planner-plus.png in Resources */,
+				18E326C22768902100F56AC3 /* planner-note.png in Resources */,
+				18E326D02768A25000F56AC3 /* PriorityCell.xib in Resources */,
+				18AD30452771AD4D00E63242 /* three_dots.png in Resources */,
+				18E326C52768902100F56AC3 /* planner-glass.png in Resources */,
+				18AD30422771ACD800E63242 /* calendar.png in Resources */,
+				18AD303A2771A1ED00E63242 /* map_new.png in Resources */,
+				189D763E277DEB3F00BCD1AA /* TrackerCell.xib in Resources */,
+				18640AB12782C47200363C7E /* wrong.png in Resources */,
+				18E326CB2768A06100F56AC3 /* DailyPlanCell.xib in Resources */,
+				18AD303727719DEF00E63242 /* clock.png in Resources */,
+				18E326AF276875E600F56AC3 /* planner-star.png in Resources */,
+				18E32694276863E200F56AC3 /* LaunchScreen.storyboard in Resources */,
+				18E326C42768902100F56AC3 /* planner-excersise.png in Resources */,
+				18AD303527719DEF00E63242 /* repeat.png in Resources */,
+				18AD303427719DEF00E63242 /* alarm.png in Resources */,
+				189D7639277DEB2700BCD1AA /* TrackerHeaderCell.xib in Resources */,
+				18E326C32768902100F56AC3 /* planner-thumb.png in Resources */,
+				18AD30482771ADD500E63242 /* cale.png in Resources */,
+				1896AF8F2769E19600952055 /* plus-planner.png in Resources */,
+				18E32691276863E200F56AC3 /* Assets.xcassets in Resources */,
+				18AD303F2771AC8C00E63242 /* planner_back.png in Resources */,
+				18E326B927687E0400F56AC3 /* DailyOtherCell.xib in Resources */,
+				18E3268F276863DE00F56AC3 /* Main.storyboard in Resources */,
+				18AD303627719DEF00E63242 /* map.png in Resources */,
+				18E326C12768902100F56AC3 /* planner-meal.png in Resources */,
+				18AD307827720CE900E63242 /* DailyCell.xib in Resources */,
+				18E326DA2768D82900F56AC3 /* ScheduleCell.xib in Resources */,
+				18A030E4276B32DD009D6682 /* ToDoCell.xib in Resources */,
+				1896AF882769B88900952055 /* close.png in Resources */,
+				18E326C62768902100F56AC3 /* planner-todo.png in Resources */,
+				18640AB22782C47200363C7E /* correct.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1033F07412702CA42A9DA0BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Planner/Pods-Planner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Planner/Pods-Planner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Planner/Pods-Planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D07C24BDA6978F3D224E86B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Planner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E32680276863DE00F56AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18640AAD2782B45700363C7E /* WeeklyHabitVC.swift in Sources */,
+				18298C24277605B7001C330E /* WeeklyTaskVC.swift in Sources */,
+				18E32688276863DE00F56AC3 /* AppDelegate.swift in Sources */,
+				189D7638277DEB2700BCD1AA /* TrackerHeaderCell.swift in Sources */,
+				18A030E3276B32DD009D6682 /* ToDoCell.swift in Sources */,
+				189D7634277DE48D00BCD1AA /* WeeklyReviewVC.swift in Sources */,
+				18AD3073277207FD00E63242 /* DailyVC.swift in Sources */,
+				18E326CF2768A25000F56AC3 /* PriorityCell.swift in Sources */,
+				18A1DA4C27707B990049CC91 /* DailyCalVC.swift in Sources */,
+				18E326B32768773300F56AC3 /* DailyHeaderCell.swift in Sources */,
+				18E326A427686AB500F56AC3 /* CreatePlanVC.swift in Sources */,
+				18E326CA2768A06100F56AC3 /* DailyPlanCell.swift in Sources */,
+				18E326A127686AA300F56AC3 /* PlanListVC.swift in Sources */,
+				18E326B827687E0400F56AC3 /* DailyOtherCell.swift in Sources */,
+				1896AF852769B41900952055 /* RatingVC.swift in Sources */,
+				18AD307727720CE900E63242 /* DailyCell.swift in Sources */,
+				18A1DA4327705DD80049CC91 /* MonthVC.swift in Sources */,
+				189D7631277DE07D00BCD1AA /* WeeklyGoalsVC.swift in Sources */,
+				18298C212775EA08001C330E /* WeeklyVC.swift in Sources */,
+				189D763D277DEB3F00BCD1AA /* TrackerCell.swift in Sources */,
+				18E326AC2768740D00F56AC3 /* DailyPlanVC.swift in Sources */,
+				18E326A827686B1C00F56AC3 /* CreatePlanCell.swift in Sources */,
+				18AD30612771EAF500E63242 /* ColorPicker.swift in Sources */,
+				18E326D92768D82900F56AC3 /* ScheduleCell.swift in Sources */,
+				18EA5689277497A50045984A /* EditTaskVC.swift in Sources */,
+				18E3268A276863DE00F56AC3 /* SceneDelegate.swift in Sources */,
+				18AD30542771AF7E00E63242 /* AddEventVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E3268D276863DE00F56AC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E3268E276863DE00F56AC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E32692276863E200F56AC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E32693276863E200F56AC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E32696276863E200F56AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E32697276863E200F56AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E32699276863E200F56AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D27640C4A1CFB8682FEB93 /* Pods-Planner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9QTFXL8LY;
+				INFOPLIST_FILE = Planner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Planner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E3269A276863E200F56AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340523E5FF1ECAC607060D37 /* Pods-Planner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9QTFXL8LY;
+				INFOPLIST_FILE = Planner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Planner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E3267F276863DE00F56AC3 /* Build configuration list for PBXProject "Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E32696276863E200F56AC3 /* Debug */,
+				18E32697276863E200F56AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E32698276863E200F56AC3 /* Build configuration list for PBXNativeTarget "Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E32699276863E200F56AC3 /* Debug */,
+				18E3269A276863E200F56AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E3267C276863DE00F56AC3 /* Project object */;
+}
